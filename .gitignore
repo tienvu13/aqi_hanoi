@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+waqi_token.txt
+*.tmp
+.ipynb_checkpoints/
+figures/alert_notification_state.json
+figures/pipeline_status.json

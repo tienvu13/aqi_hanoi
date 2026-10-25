@@ -1,0 +1,216 @@
+collected_at,station_uid,station_name,lat,lon,aqi
+2026-10-06 16:59:25,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-06 16:59:25,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,47
+2026-10-06 16:59:25,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,14
+2026-10-06 16:59:25,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,71
+2026-10-06 16:59:25,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,62
+2026-10-06 17:11:19,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-06 17:11:19,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,47
+2026-10-06 17:11:19,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,12
+2026-10-06 17:11:19,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-06 17:11:19,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-06 17:20:37,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-06 17:20:37,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-06 17:20:37,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-06 17:20:37,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,52
+2026-10-06 17:20:37,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,12
+2026-10-06 18:00:05,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-06 18:00:05,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,52
+2026-10-06 18:00:05,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,12
+2026-10-06 18:00:05,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-06 18:00:05,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-07 08:00:06,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-07 08:00:06,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,154
+2026-10-07 08:00:06,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,-
+2026-10-07 08:00:06,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-07 08:00:06,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-07 13:00:06,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,110
+2026-10-07 13:00:06,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,148
+2026-10-07 13:00:06,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-07 13:00:06,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,74
+2026-10-07 13:00:06,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,-
+2026-10-07 15:00:06,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,-
+2026-10-07 15:00:06,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,110
+2026-10-07 15:00:06,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,148
+2026-10-07 15:00:06,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-07 15:00:06,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,64
+2026-10-07 18:00:06,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,68
+2026-10-07 18:00:06,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,5
+2026-10-07 18:00:06,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-07 18:00:06,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-07 18:00:06,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-07 19:01:09,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-07 19:01:09,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,96
+2026-10-07 19:01:09,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,9
+2026-10-07 19:01:09,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-07 19:01:09,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-07 20:00:10,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-07 20:00:10,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,113
+2026-10-07 20:00:10,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,9
+2026-10-07 20:00:10,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-07 20:00:10,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-13 09:37:34,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-13 09:37:34,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,183
+2026-10-13 09:37:34,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,-
+2026-10-13 09:37:34,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-13 09:37:34,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-13 09:39:21,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-13 09:39:21,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,183
+2026-10-13 09:39:21,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,-
+2026-10-13 09:39:21,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-13 09:39:21,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-13 10:00:04,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-13 10:00:04,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-13 10:00:04,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-13 10:00:04,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,180
+2026-10-13 10:00:04,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,-
+2026-10-13 16:00:05,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-13 16:00:05,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,140
+2026-10-13 16:00:05,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,11
+2026-10-13 16:00:05,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-13 16:00:05,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,166
+2026-10-14 01:00:11,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-14 01:00:11,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,120
+2026-10-14 01:00:11,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,-
+2026-10-14 01:00:11,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-14 01:00:11,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-14 02:00:10,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-14 02:00:10,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-14 02:00:10,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,117
+2026-10-14 02:00:10,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,-
+2026-10-14 02:00:10,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-24 22:32:40,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,11
+2026-10-24 22:32:40,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-24 22:32:40,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-24 22:32:40,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-24 22:32:40,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,107
+2026-10-25 00:00:11,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 00:00:11,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 00:00:11,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 00:00:11,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,107
+2026-10-25 00:00:11,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,-
+2026-10-25 16:00:09,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 16:00:09,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,97
+2026-10-25 16:00:09,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 16:00:09,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 16:00:09,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 17:00:06,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 17:00:06,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 17:00:06,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 17:00:06,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,97
+2026-10-25 17:00:06,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 17:09:32,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 17:09:32,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,97
+2026-10-25 17:09:32,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 17:09:32,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 17:09:32,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 18:04:13,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 18:04:13,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 18:04:13,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 18:04:13,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 18:04:13,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,102
+2026-10-25 18:08:17,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 18:08:17,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 18:08:17,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 18:08:17,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 18:08:17,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,110
+2026-10-25 18:08:59,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 18:08:59,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,110
+2026-10-25 18:08:59,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 18:08:59,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 18:08:59,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 18:11:13,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 18:11:13,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 18:11:13,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 18:11:13,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,110
+2026-10-25 18:11:13,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 18:16:30,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 18:16:30,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,110
+2026-10-25 18:16:30,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 18:16:30,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 18:16:30,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 18:17:02,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 18:17:02,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 18:17:02,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 18:17:02,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,110
+2026-10-25 18:17:02,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 18:17:17,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 18:17:17,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 18:17:17,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 18:17:17,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 18:17:17,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,110
+2026-10-25 18:18:28,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,110
+2026-10-25 18:18:28,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 18:18:28,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 18:18:28,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 18:18:28,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 19:24:45,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 19:24:45,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 19:24:45,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 19:24:45,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,119
+2026-10-25 19:24:45,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 19:31:40,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 19:31:40,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,119
+2026-10-25 19:31:40,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 19:31:40,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 19:31:40,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 19:35:31,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 19:35:31,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,119
+2026-10-25 19:35:31,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 19:35:31,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 19:35:31,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 19:38:36,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 19:38:36,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,119
+2026-10-25 19:38:36,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 19:38:36,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 19:38:36,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 19:40:27,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 19:40:27,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 19:40:27,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 19:40:27,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,119
+2026-10-25 19:40:27,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 19:45:30,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 19:45:30,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,119
+2026-10-25 19:45:30,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 19:45:30,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 19:45:30,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 20:00:10,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 20:00:10,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,144
+2026-10-25 20:00:10,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 20:00:10,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 20:00:10,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 20:18:15,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 20:18:15,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,144
+2026-10-25 20:18:15,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 20:18:15,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 20:18:15,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 20:19:20,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,144
+2026-10-25 20:19:20,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 20:19:20,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 20:19:20,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 20:19:20,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 20:32:18,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 20:32:18,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,144
+2026-10-25 20:32:18,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 20:32:18,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 20:32:18,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 22:37:39,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,153
+2026-10-25 22:37:39,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 22:37:39,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 22:37:39,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 22:37:39,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 23:00:07,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 23:00:07,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 23:00:07,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 23:00:07,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,153
+2026-10-25 23:00:07,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16
+2026-10-25 23:03:58,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 23:03:58,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 23:03:58,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 23:03:58,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,153
+2026-10-25 23:03:58,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,-
+2026-10-25 23:23:07,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,-
+2026-10-25 23:23:07,13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,-
+2026-10-25 23:23:07,13251,"Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm, Vietnam",21.04975,105.74187,-
+2026-10-25 23:23:07,8641,"Hanoi US Embassy, Vietnam (Đại sứ quán Mỹ, Hà Nội)",21.0215063,105.8188748,-
+2026-10-25 23:23:07,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,154

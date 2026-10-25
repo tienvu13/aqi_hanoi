@@ -1,0 +1,11 @@
+horizon,split,model,mae,rmse,r2,selected_on
+1,validation,Ridge,3.891,6.396,0.96,
+1,validation,RandomForest,4.22,7.423,0.946,
+1,validation,GradientBoosting,4.287,7.85,0.94,
+1,test,Baseline (giữ nguyên hiện tại),5.038,8.568,0.92,
+1,test,Ridge,3.877,6.594,0.953,validation
+24,validation,Ridge,18.268,26.973,0.286,
+24,validation,RandomForest,18.785,27.55,0.255,
+24,validation,GradientBoosting,19.491,28.663,0.194,
+24,test,Baseline (giữ nguyên hiện tại),18.542,26.971,0.209,
+24,test,Ridge,16.579,23.644,0.392,validation

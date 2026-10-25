@@ -1,0 +1,1 @@
+"""PostgreSQL warehouse integration."""

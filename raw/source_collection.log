@@ -1,0 +1,160 @@
+
+===== Hanoi monitoring portal | 2026-10-25T22:42:13+07:00 =====
+Cổng quan trắc Hà Nội: 18435 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-25T22:42:39+07:00 =====
+Sensor.Community: 2 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== OpenAQ | 2026-10-25T22:42:41+07:00 =====
+OpenAQ: kiểm tra 43 trạm trong khu vực Hà Nội để tìm tối đa 10 trạm có số đo trong 24 giờ.
+OpenAQ 4946813 (Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ): 2 phép đo PM mới.
+OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM mới.
+OpenAQ 6123215 (OceanPark): 1 phép đo PM mới.
+Cảnh báo: OpenAQ chỉ có 3/10 trạm có số đo mới.
+Đã lưu 3 trạm OpenAQ và 5 phép đo PM mới.
+
+===== Hanoi monitoring portal | 2026-10-25T22:44:29+07:00 =====
+Traceback (most recent call last):
+  File "G:\aqi_hanoi\collect_hanoi_portal.py", line 124, in <module>
+    main()
+  File "G:\aqi_hanoi\collect_hanoi_portal.py", line 120, in main
+    collect_hanoi_portal()
+  File "G:\aqi_hanoi\collect_hanoi_portal.py", line 112, in collect_hanoi_portal
+    print(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u1ed5' in position 1: character maps to <undefined>
+
+===== Sensor.Community | 2026-10-25T22:44:45+07:00 =====
+Traceback (most recent call last):
+  File "G:\aqi_hanoi\collect_sensorcommunity.py", line 118, in <module>
+    main()
+  File "G:\aqi_hanoi\collect_sensorcommunity.py", line 114, in main
+    collect_sensorcommunity()
+  File "G:\aqi_hanoi\collect_sensorcommunity.py", line 106, in collect_sensorcommunity
+    print(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u0111' in position 25: character maps to <undefined>
+
+===== OpenAQ | 2026-10-25T22:44:47+07:00 =====
+Traceback (most recent call last):
+  File "G:\aqi_hanoi\collect_openaq.py", line 280, in <module>
+    main()
+  File "G:\aqi_hanoi\collect_openaq.py", line 270, in main
+    data = collect_openaq(api_key, now=datetime.now().astimezone())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\collect_openaq.py", line 196, in collect_openaq
+    print(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u1ec3' in position 10: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\aqi_hanoi\collect_openaq.py", line 282, in <module>
+    print(f"L\u1ed7i: {error}")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u1ed7' in position 1: character maps to <undefined>
+
+===== Hanoi monitoring portal | 2026-10-25T22:45:36+07:00 =====
+Cổng quan trắc Hà Nội: 18437 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-25T22:46:27+07:00 =====
+Sensor.Community: 2 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== OpenAQ | 2026-10-25T22:46:29+07:00 =====
+OpenAQ: kiểm tra 43 trạm trong khu vực Hà Nội để tìm tối đa 10 trạm có số đo trong 24 giờ.
+OpenAQ 4946813 (Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ): 2 phép đo PM mới.
+OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM mới.
+OpenAQ 6123215 (OceanPark): 1 phép đo PM mới.
+Cảnh báo: OpenAQ chỉ có 3/10 trạm có số đo mới.
+Đã lưu 3 trạm OpenAQ và 5 phép đo PM mới.
+
+===== Hanoi monitoring portal | 2026-10-25T22:50:48+07:00 =====
+Cổng quan trắc Hà Nội: 18439 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-25T22:51:29+07:00 =====
+Sensor.Community: 2 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== OpenAQ | 2026-10-25T22:51:31+07:00 =====
+OpenAQ: kiểm tra 43 trạm trong khu vực Hà Nội để tìm tối đa 10 trạm có số đo trong 24 giờ.
+OpenAQ 4946813 (Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ): 2 phép đo PM mới.
+OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM mới.
+OpenAQ 6123215 (OceanPark): 1 phép đo PM mới.
+Cảnh báo: OpenAQ chỉ có 3/10 trạm có số đo mới.
+Đã lưu 3 trạm OpenAQ và 5 phép đo PM mới.
+
+===== NOAA METAR VVNB | 2026-10-25T23:00:14+07:00 =====
+NOAA METAR VVNB: 47 báo cáo mới; quan trắc gần nhất 2026-10-25 22:30:00.
+
+===== Hanoi monitoring portal | 2026-10-25T23:00:16+07:00 =====
+Cổng quan trắc Hà Nội: 18443 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-25T23:01:19+07:00 =====
+Sensor.Community: 2 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== NOAA METAR VVNB | 2026-10-25T23:01:20+07:00 =====
+NOAA METAR VVNB: 47 báo cáo mới; quan trắc gần nhất 2026-10-25 22:30:00.
+
+===== Hanoi monitoring portal | 2026-10-25T23:01:26+07:00 =====
+Cổng quan trắc Hà Nội: 18443 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-25T23:01:58+07:00 =====
+Sensor.Community: 2 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== OpenAQ | 2026-10-25T23:01:22+07:00 =====
+OpenAQ: kiểm tra 43 trạm trong khu vực Hà Nội để tìm tối đa 10 trạm có số đo trong 24 giờ.
+OpenAQ 4946813 (Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ): 2 phép đo PM mới.
+OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM mới.
+OpenAQ 6123215 (OceanPark): 1 phép đo PM mới.
+Cảnh báo: OpenAQ chỉ có 3/10 trạm có số đo mới.
+Đã lưu 3 trạm OpenAQ và 5 phép đo PM mới.
+
+===== OpenAQ | 2026-10-25T23:02:00+07:00 =====
+OpenAQ: kiểm tra 43 trạm trong khu vực Hà Nội để tìm tối đa 10 trạm có số đo trong 24 giờ.
+OpenAQ 4946813 (Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ): 2 phép đo PM mới.
+OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM mới.
+OpenAQ 6123215 (OceanPark): 1 phép đo PM mới.
+Cảnh báo: OpenAQ chỉ có 3/10 trạm có số đo mới.
+Đã lưu 3 trạm OpenAQ và 5 phép đo PM mới.
+
+===== NOAA METAR VVNB | 2026-10-25T23:04:02+07:00 =====
+NOAA METAR VVNB: 47 báo cáo mới; quan trắc gần nhất 2026-10-25 22:30:00.
+
+===== Hanoi monitoring portal | 2026-10-25T23:04:05+07:00 =====
+Cổng quan trắc Hà Nội: 18443 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-25T23:04:20+07:00 =====
+Sensor.Community: 2 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== OpenAQ | 2026-10-25T23:04:22+07:00 =====
+OpenAQ: kiểm tra 43 trạm trong khu vực Hà Nội để tìm tối đa 10 trạm có số đo trong 24 giờ.
+OpenAQ 4946813 (Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ): 2 phép đo PM mới.
+OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM mới.
+OpenAQ 6123215 (OceanPark): 1 phép đo PM mới.
+Cảnh báo: OpenAQ chỉ có 3/10 trạm có số đo mới.
+Đã lưu 3 trạm OpenAQ và 5 phép đo PM mới.
+
+===== NOAA METAR VVNB | 2026-10-25T23:23:11+07:00 =====
+NOAA METAR VVNB: 48 báo cáo mới; quan trắc gần nhất 2026-10-25 23:00:00.
+
+===== Hanoi monitoring portal | 2026-10-25T23:23:12+07:00 =====
+Cổng quan trắc Hà Nội: 18451 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-25T23:23:29+07:00 =====
+Sensor.Community: 2 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== OpenAQ | 2026-10-25T23:23:31+07:00 =====
+OpenAQ: kiểm tra 43 trạm trong khu vực Hà Nội để tìm tối đa 10 trạm có số đo trong 24 giờ.
+OpenAQ 4946813 (Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ): 2 phép đo PM mới.
+OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM mới.
+OpenAQ 6123215 (OceanPark): 1 phép đo PM mới.
+Cảnh báo: OpenAQ chỉ có 3/10 trạm có số đo mới.
+Đã lưu 3 trạm OpenAQ và 5 phép đo PM mới.

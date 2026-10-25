@@ -1,0 +1,583 @@
+antecedents,consequents,support,confidence,lift
+có mưa + gió mạnh (>=10) + ẩm cao (>80),AQI tốt-TB,0.036,0.655,2.005
+gió mạnh (>=10) + nhiệt thấp + áp suất cao,AQI tốt-TB,0.06,0.637,1.949
+gió mạnh (>=10) + áp suất cao + Đông,AQI tốt-TB,0.036,0.616,1.886
+có mưa + gió mạnh (>=10),AQI tốt-TB,0.046,0.615,1.881
+gió mạnh (>=10) + nhiệt thấp + ẩm vừa (60-80),AQI tốt-TB,0.031,0.611,1.87
+gió mạnh (>=10) + áp suất cao + ẩm vừa (60-80),AQI tốt-TB,0.033,0.606,1.855
+gió mạnh (>=10) + áp suất cao,AQI tốt-TB,0.071,0.605,1.852
+gió mạnh (>=10) + ngày thường + áp suất cao,AQI tốt-TB,0.052,0.601,1.838
+gió yếu (<5) + không mưa + áp suất cao,AQI xấu+,0.041,0.564,1.837
+có mưa + gió mạnh (>=10) + ngày thường,AQI tốt-TB,0.031,0.6,1.836
+gió mạnh (>=10) + nhiệt thấp + Đông,AQI tốt-TB,0.035,0.6,1.835
+gió mạnh (>=10) + nhiệt thấp,AQI tốt-TB,0.075,0.598,1.829
+gió yếu (<5) + ngày thường + áp suất cao,AQI xấu+,0.031,0.556,1.81
+nhiệt cao + tối (17-23h) + áp suất thấp,AQI xấu+,0.043,0.554,1.805
+gió mạnh (>=10) + ngày thường + nhiệt thấp,AQI tốt-TB,0.053,0.589,1.803
+gió yếu (<5) + áp suất cao,AQI xấu+,0.042,0.553,1.801
+gió yếu (<5) + không mưa + nhiệt thấp,AQI xấu+,0.037,0.552,1.798
+Thu + gió mạnh (>=10),AQI tốt-TB,0.043,0.587,1.795
+gió mạnh (>=10) + không mưa + áp suất cao,AQI tốt-TB,0.059,0.586,1.794
+ngày thường + nhiệt cao + tối (17-23h),AQI xấu+,0.037,0.551,1.794
+gió yếu (<5) + nhiệt thấp + áp suất cao,AQI xấu+,0.034,0.548,1.784
+gió mạnh (>=10) + không mưa + nhiệt thấp,AQI tốt-TB,0.062,0.581,1.778
+gió yếu (<5) + không mưa + nhiệt cao,AQI xấu+,0.03,0.542,1.765
+không mưa + nhiệt cao + tối (17-23h),AQI xấu+,0.046,0.538,1.754
+gió mạnh (>=10) + nhiệt thấp + ẩm cao (>80),AQI tốt-TB,0.031,0.572,1.751
+gió yếu (<5) + nhiệt thấp,AQI xấu+,0.038,0.537,1.75
+nhiệt cao + tối (17-23h),AQI xấu+,0.051,0.528,1.719
+gió yếu (<5) + nhiệt cao,AQI xấu+,0.036,0.527,1.718
+gió mạnh (>=10) + sáng (6-10h),AQI tốt-TB,0.044,0.557,1.706
+cuối tuần + gió mạnh (>=10) + ẩm cao (>80),AQI tốt-TB,0.03,0.557,1.704
+không mưa + tối (17-23h) + áp suất thấp,AQI xấu+,0.044,0.522,1.699
+Xuân + gió mạnh (>=10) + nhiệt thấp,AQI tốt-TB,0.032,0.554,1.695
+gió mạnh (>=10) + Đông,AQI tốt-TB,0.041,0.553,1.693
+gió mạnh (>=10) + đêm (0-5h),AQI tốt-TB,0.041,0.547,1.675
+gió mạnh (>=10) + ngày thường + sáng (6-10h),AQI tốt-TB,0.03,0.547,1.675
+gió yếu (<5) + không mưa + ngày thường,AQI xấu+,0.066,0.512,1.668
+gió mạnh (>=10) + không mưa + sáng (6-10h),AQI tốt-TB,0.033,0.538,1.646
+gió yếu (<5) + không mưa,AQI xấu+,0.091,0.503,1.637
+gió yếu (<5) + áp suất thấp,AQI xấu+,0.036,0.501,1.634
+gió yếu (<5) + không mưa + ẩm cao (>80),AQI xấu+,0.053,0.485,1.58
+gió mạnh (>=10) + không mưa + Đông,AQI tốt-TB,0.032,0.516,1.579
+cuối tuần + gió mạnh (>=10),AQI tốt-TB,0.059,0.516,1.579
+Thu + không mưa + áp suất thấp,AQI xấu+,0.032,0.483,1.575
+Thu + nhiệt cao + áp suất thấp,AQI xấu+,0.03,0.483,1.572
+ngày thường + tối (17-23h) + áp suất thấp,AQI xấu+,0.036,0.48,1.565
+có mưa + nhiệt vừa + ẩm cao (>80),AQI tốt-TB,0.043,0.51,1.561
+có mưa + nhiệt vừa,AQI tốt-TB,0.045,0.507,1.55
+gió yếu (<5) + ngày thường,AQI xấu+,0.073,0.475,1.546
+tối (17-23h) + áp suất thấp,AQI xấu+,0.05,0.475,1.546
+không mưa + Đông + ẩm cao (>80),AQI xấu+,0.031,0.475,1.546
+gió mạnh (>=10) + nhiệt vừa + ẩm cao (>80),AQI tốt-TB,0.042,0.504,1.541
+có mưa + ngày thường + nhiệt vừa,AQI tốt-TB,0.034,0.501,1.534
+gió yếu (<5),AQI xấu+,0.101,0.47,1.53
+gió yếu (<5) + đêm (0-5h),AQI xấu+,0.031,0.468,1.523
+có mưa + ẩm cao (>80),AQI tốt-TB,0.069,0.494,1.513
+gió mạnh (>=10) + áp suất vừa + ẩm cao (>80),AQI tốt-TB,0.037,0.494,1.513
+gió mạnh (>=10) + ẩm cao (>80),AQI tốt-TB,0.086,0.493,1.51
+có mưa + ngày thường + ẩm cao (>80),AQI tốt-TB,0.05,0.49,1.5
+ngày thường + nhiệt thấp + ẩm vừa (60-80),AQI tốt-TB,0.041,0.489,1.497
+cuối tuần + gió mạnh (>=10) + không mưa,AQI tốt-TB,0.044,0.482,1.475
+gió yếu (<5) + ngày thường + ẩm cao (>80),AQI xấu+,0.044,0.451,1.47
+Thu + gió yếu (<5),AQI xấu+,0.032,0.446,1.454
+gió mạnh (>=10) + nhiệt vừa,AQI tốt-TB,0.062,0.473,1.448
+gió vừa (5-10) + không mưa + Đông,AQI xấu+,0.037,0.444,1.448
+gió mạnh (>=10) + trưa-chiều (11-16h),AQI tốt-TB,0.053,0.472,1.445
+nhiệt thấp + áp suất cao + ẩm vừa (60-80),AQI tốt-TB,0.049,0.472,1.443
+gió vừa (5-10) + nhiệt thấp + Đông,AQI xấu+,0.032,0.443,1.443
+gió mạnh (>=10),AQI tốt-TB,0.182,0.471,1.441
+ngày thường + tối (17-23h) + ẩm vừa (60-80),AQI xấu+,0.034,0.442,1.441
+không mưa + áp suất cao + ẩm cao (>80),AQI xấu+,0.046,0.441,1.436
+nhiệt thấp + ẩm vừa (60-80),AQI tốt-TB,0.055,0.468,1.433
+Thu + không mưa + nhiệt cao,AQI xấu+,0.042,0.44,1.432
+gió yếu (<5) + ẩm cao (>80),AQI xấu+,0.059,0.438,1.427
+gió mạnh (>=10) + ngày thường + ẩm cao (>80),AQI tốt-TB,0.055,0.465,1.422
+Xuân + gió mạnh (>=10) + áp suất vừa,AQI tốt-TB,0.031,0.463,1.417
+không mưa + nhiệt thấp + ẩm vừa (60-80),AQI tốt-TB,0.052,0.461,1.412
+không mưa + trưa-chiều (11-16h) + ẩm thấp (<60),AQI xấu+,0.032,0.433,1.412
+gió mạnh (>=10) + nhiệt vừa + áp suất vừa,AQI tốt-TB,0.031,0.461,1.411
+ngày thường + áp suất cao + ẩm vừa (60-80),AQI tốt-TB,0.043,0.461,1.411
+có mưa,AQI tốt-TB,0.082,0.461,1.41
+gió vừa (5-10) + Đông,AQI xấu+,0.038,0.432,1.409
+trưa-chiều (11-16h) + ẩm thấp (<60),AQI xấu+,0.032,0.432,1.409
+không mưa + ngày thường + Đông,AQI xấu+,0.06,0.432,1.406
+gió vừa (5-10) + áp suất cao + Đông,AQI xấu+,0.032,0.431,1.403
+không mưa + tối (17-23h) + ẩm vừa (60-80),AQI xấu+,0.046,0.431,1.403
+Thu + ngày thường + nhiệt cao,AQI xấu+,0.034,0.429,1.399
+có mưa + áp suất thấp + ẩm cao (>80),AQI tốt-TB,0.03,0.457,1.398
+có mưa + ngày thường,AQI tốt-TB,0.059,0.457,1.398
+tối (17-23h) + ẩm vừa (60-80),AQI xấu+,0.047,0.429,1.397
+gió mạnh (>=10) + áp suất vừa,AQI tốt-TB,0.062,0.455,1.391
+gió mạnh (>=10) + ngày thường + nhiệt vừa,AQI tốt-TB,0.042,0.454,1.388
+không mưa + nhiệt thấp + Đông,AQI xấu+,0.068,0.426,1.386
+gió mạnh (>=10) + ngày thường + trưa-chiều (11-16h),AQI tốt-TB,0.036,0.452,1.384
+gió vừa (5-10) + không mưa + tối (17-23h),AQI xấu+,0.041,0.424,1.382
+gió mạnh (>=10) + ngày thường,AQI tốt-TB,0.123,0.452,1.382
+nhiệt thấp + Đông + ẩm cao (>80),AQI xấu+,0.032,0.423,1.38
+Đông + ẩm cao (>80),AQI xấu+,0.033,0.418,1.361
+không mưa + Đông,AQI xấu+,0.081,0.417,1.359
+không mưa + áp suất cao + Đông,AQI xấu+,0.068,0.416,1.356
+Thu + nhiệt cao,AQI xấu+,0.048,0.416,1.355
+Hè + cuối tuần,AQI kém,0.038,0.496,1.355
+không mưa + nhiệt cao + áp suất thấp,AQI xấu+,0.075,0.415,1.353
+Xuân + gió mạnh (>=10) + ẩm cao (>80),AQI tốt-TB,0.031,0.441,1.35
+gió vừa (5-10) + ngày thường + tối (17-23h),AQI xấu+,0.033,0.414,1.348
+gió mạnh (>=10) + ẩm vừa (60-80),AQI tốt-TB,0.073,0.44,1.346
+Hè + áp suất vừa,AQI kém,0.038,0.493,1.346
+gió mạnh (>=10) + không mưa + trưa-chiều (11-16h),AQI tốt-TB,0.038,0.44,1.345
+áp suất cao + ẩm vừa (60-80),AQI tốt-TB,0.057,0.437,1.339
+gió mạnh (>=10) + không mưa,AQI tốt-TB,0.136,0.436,1.335
+ngày thường + nhiệt thấp + Đông,AQI xấu+,0.051,0.409,1.333
+ngày thường + Đông,AQI xấu+,0.062,0.408,1.328
+gió mạnh (>=10) + không mưa + áp suất vừa,AQI tốt-TB,0.048,0.433,1.326
+không mưa + áp suất cao + ẩm vừa (60-80),AQI tốt-TB,0.054,0.432,1.321
+gió mạnh (>=10) + không mưa + ẩm vừa (60-80),AQI tốt-TB,0.063,0.43,1.316
+gió mạnh (>=10) + ngày thường + ẩm vừa (60-80),AQI tốt-TB,0.05,0.429,1.312
+không mưa + ngày thường + tối (17-23h),AQI xấu+,0.074,0.402,1.308
+gió vừa (5-10) + không mưa + áp suất cao,AQI xấu+,0.051,0.401,1.306
+nhiệt thấp + áp suất cao + Đông,AQI xấu+,0.062,0.401,1.306
+ngày thường + nhiệt cao + áp suất thấp,AQI xấu+,0.063,0.401,1.305
+sáng (6-10h) + áp suất vừa,AQI kém,0.035,0.478,1.304
+nhiệt thấp + Đông,AQI xấu+,0.07,0.4,1.304
+gió yếu (<5) + áp suất vừa,AQI kém,0.032,0.477,1.303
+không mưa + ngày thường + áp suất thấp,AQI xấu+,0.072,0.4,1.302
+gió vừa (5-10) + tối (17-23h),AQI xấu+,0.044,0.4,1.302
+gió mạnh (>=10) + ngày thường + áp suất vừa,AQI tốt-TB,0.039,0.425,1.299
+ngày thường + áp suất cao + Đông,AQI xấu+,0.05,0.398,1.295
+không mưa + ngày thường + nhiệt cao,AQI xấu+,0.076,0.397,1.294
+áp suất vừa + đêm (0-5h) + ẩm cao (>80),AQI kém,0.038,0.474,1.293
+Thu + áp suất vừa + ẩm cao (>80),AQI kém,0.036,0.473,1.292
+gió yếu (<5) + nhiệt vừa + ẩm cao (>80),AQI kém,0.031,0.473,1.291
+gió vừa (5-10) + áp suất vừa + ẩm cao (>80),AQI kém,0.042,0.473,1.291
+không mưa + áp suất thấp + ẩm vừa (60-80),AQI xấu+,0.04,0.396,1.29
+gió vừa (5-10) + ngày thường + áp suất cao,AQI xấu+,0.037,0.395,1.288
+ngày thường + áp suất cao + ẩm cao (>80),AQI xấu+,0.036,0.395,1.288
+ngày thường + ẩm thấp (<60),AQI xấu+,0.032,0.395,1.287
+Thu + áp suất thấp,AQI xấu+,0.039,0.395,1.287
+không mưa + ngày thường + ẩm thấp (<60),AQI xấu+,0.031,0.395,1.286
+nhiệt cao + áp suất thấp + ẩm cao (>80),AQI xấu+,0.035,0.394,1.283
+Đông,AQI xấu+,0.083,0.394,1.282
+gió mạnh (>=10) + không mưa + ẩm cao (>80),AQI tốt-TB,0.05,0.418,1.28
+ẩm thấp (<60),AQI xấu+,0.044,0.393,1.28
+không mưa + áp suất thấp,AQI xấu+,0.099,0.393,1.28
+không mưa + ẩm thấp (<60),AQI xấu+,0.043,0.393,1.279
+gió mạnh (>=10) + không mưa + ngày thường,AQI tốt-TB,0.092,0.418,1.278
+áp suất cao + Đông,AQI xấu+,0.069,0.392,1.277
+không mưa + nhiệt cao + ẩm cao (>80),AQI xấu+,0.034,0.391,1.275
+nhiệt cao + trưa-chiều (11-16h) + ẩm vừa (60-80),AQI kém,0.043,0.467,1.275
+không mưa + áp suất vừa + đêm (0-5h),AQI kém,0.031,0.467,1.275
+Hè + gió vừa (5-10),AQI kém,0.054,0.466,1.273
+không mưa + nhiệt vừa + đêm (0-5h),AQI kém,0.036,0.466,1.271
+có mưa + áp suất thấp,AQI tốt-TB,0.035,0.415,1.27
+gió vừa (5-10) + áp suất cao,AQI xấu+,0.053,0.389,1.267
+áp suất vừa + đêm (0-5h),AQI kém,0.039,0.464,1.266
+không mưa + áp suất vừa + ẩm cao (>80),AQI kém,0.074,0.464,1.266
+gió vừa (5-10) + không mưa + áp suất thấp,AQI xấu+,0.038,0.388,1.265
+nhiệt cao + áp suất thấp,AQI xấu+,0.087,0.388,1.264
+Hè + gió vừa (5-10) + không mưa,AQI kém,0.037,0.463,1.264
+Hè + gió vừa (5-10) + ẩm cao (>80),AQI kém,0.036,0.463,1.264
+không mưa + tối (17-23h),AQI xấu+,0.099,0.387,1.262
+gió vừa (5-10) + không mưa + áp suất vừa,AQI kém,0.048,0.462,1.262
+Hè + có mưa,AQI tốt-TB,0.031,0.412,1.259
+gió vừa (5-10) + áp suất vừa,AQI kém,0.06,0.461,1.257
+Đông + ẩm vừa (60-80),AQI tốt-TB,0.032,0.411,1.257
+Xuân + gió mạnh (>=10),AQI tốt-TB,0.058,0.41,1.255
+gió vừa (5-10) + nhiệt thấp + áp suất cao,AQI xấu+,0.044,0.385,1.254
+ngày thường + nhiệt thấp + áp suất cao,AQI tốt-TB,0.079,0.409,1.252
+gió vừa (5-10) + không mưa + nhiệt cao,AQI xấu+,0.041,0.384,1.252
+áp suất cao + ẩm cao (>80),AQI xấu+,0.049,0.384,1.251
+Hè + đêm (0-5h),AQI kém,0.031,0.458,1.25
+Hè + gió mạnh (>=10),AQI tốt-TB,0.04,0.409,1.25
+Hè + không mưa + ẩm cao (>80),AQI kém,0.049,0.458,1.25
+Hè + trưa-chiều (11-16h),AQI kém,0.031,0.458,1.25
+nhiệt thấp + tối (17-23h) + áp suất cao,AQI tốt-TB,0.032,0.408,1.249
+không mưa + nhiệt vừa + ẩm cao (>80),AQI kém,0.076,0.457,1.247
+ngày thường + áp suất thấp + ẩm vừa (60-80),AQI xấu+,0.033,0.383,1.247
+nhiệt thấp + áp suất cao + ẩm cao (>80),AQI xấu+,0.045,0.383,1.247
+gió vừa (5-10) + nhiệt vừa + áp suất vừa,AQI kém,0.031,0.456,1.246
+Hè + gió vừa (5-10) + áp suất thấp,AQI kém,0.037,0.456,1.246
+gió mạnh (>=10) + không mưa + nhiệt vừa,AQI tốt-TB,0.039,0.407,1.245
+nhiệt vừa + đêm (0-5h) + ẩm cao (>80),AQI kém,0.05,0.456,1.245
+có mưa + gió vừa (5-10),AQI kém,0.032,0.456,1.244
+không mưa + nhiệt cao,AQI xấu+,0.103,0.382,1.244
+không mưa + áp suất thấp + ẩm cao (>80),AQI xấu+,0.05,0.382,1.244
+ngày thường + nhiệt cao + ẩm cao (>80),AQI xấu+,0.03,0.38,1.239
+nhiệt vừa + áp suất vừa + ẩm cao (>80),AQI kém,0.062,0.454,1.238
+Thu + không mưa + áp suất vừa,AQI kém,0.041,0.453,1.237
+gió vừa (5-10) + nhiệt vừa + ẩm cao (>80),AQI kém,0.047,0.453,1.237
+Xuân + gió mạnh (>=10) + không mưa,AQI tốt-TB,0.051,0.404,1.237
+gió vừa (5-10) + nhiệt cao + áp suất thấp,AQI xấu+,0.033,0.38,1.236
+gió yếu (<5) + nhiệt vừa,AQI kém,0.034,0.453,1.236
+gió vừa (5-10) + ngày thường + nhiệt thấp,AQI xấu+,0.038,0.379,1.235
+nhiệt thấp + áp suất cao,AQI tốt-TB,0.109,0.404,1.235
+không mưa + nhiệt vừa + áp suất vừa,AQI kém,0.06,0.451,1.233
+ngày thường + tối (17-23h),AQI xấu+,0.079,0.378,1.232
+nhiệt vừa + đêm (0-5h),AQI kém,0.051,0.451,1.231
+tối (17-23h) + áp suất cao,AQI tốt-TB,0.036,0.402,1.23
+Hè + nhiệt vừa,AQI kém,0.046,0.45,1.229
+nhiệt thấp + tối (17-23h),AQI tốt-TB,0.039,0.401,1.228
+cuối tuần + áp suất vừa,AQI kém,0.043,0.449,1.227
+áp suất thấp + ẩm vừa (60-80),AQI xấu+,0.045,0.376,1.225
+Thu + không mưa + ẩm cao (>80),AQI kém,0.045,0.449,1.225
+nhiệt cao + áp suất vừa,AQI kém,0.042,0.448,1.223
+áp suất vừa + ẩm cao (>80),AQI kém,0.095,0.448,1.223
+áp suất thấp + đêm (0-5h) + ẩm cao (>80),AQI kém,0.034,0.448,1.223
+gió vừa (5-10) + không mưa + nhiệt thấp,AQI xấu+,0.049,0.375,1.222
+ngày thường + nhiệt cao,AQI xấu+,0.086,0.374,1.219
+gió vừa (5-10) + không mưa + sáng (6-10h),AQI kém,0.031,0.447,1.219
+gió vừa (5-10) + nhiệt cao,AQI kém,0.057,0.446,1.219
+ngày thường + nhiệt vừa + đêm (0-5h),AQI kém,0.036,0.446,1.219
+cuối tuần + không mưa + áp suất vừa,AQI kém,0.036,0.446,1.218
+nhiệt cao + áp suất thấp + ẩm vừa (60-80),AQI xấu+,0.043,0.374,1.218
+cuối tuần + nhiệt thấp,AQI tốt-TB,0.038,0.398,1.216
+gió vừa (5-10) + sáng (6-10h),AQI kém,0.038,0.446,1.216
+không mưa + ngày thường + áp suất cao,AQI xấu+,0.081,0.373,1.215
+nhiệt thấp,AQI tốt-TB,0.134,0.396,1.213
+ngày thường + nhiệt thấp,AQI tốt-TB,0.096,0.396,1.212
+Xuân + nhiệt thấp,AQI tốt-TB,0.056,0.396,1.212
+Hè + nhiệt vừa + ẩm cao (>80),AQI kém,0.042,0.443,1.211
+gió vừa (5-10) + không mưa + nhiệt vừa,AQI kém,0.041,0.443,1.21
+Xuân + không mưa + áp suất vừa,AQI tốt-TB,0.037,0.395,1.209
+Hè + không mưa,AQI kém,0.087,0.443,1.209
+không mưa + nhiệt thấp + ẩm cao (>80),AQI xấu+,0.053,0.371,1.209
+không mưa + nhiệt cao + áp suất vừa,AQI kém,0.036,0.443,1.208
+nhiệt cao + trưa-chiều (11-16h) + áp suất thấp,AQI kém,0.039,0.443,1.208
+Hè + ẩm cao (>80),AQI kém,0.074,0.442,1.208
+Xuân + nhiệt thấp + áp suất cao,AQI tốt-TB,0.04,0.394,1.207
+gió vừa (5-10) + nhiệt vừa,AQI kém,0.058,0.442,1.207
+ngày thường + nhiệt cao + trưa-chiều (11-16h),AQI kém,0.045,0.441,1.205
+gió vừa (5-10) + áp suất thấp + ẩm cao (>80),AQI kém,0.037,0.441,1.204
+gió vừa (5-10) + ngày thường + áp suất vừa,AQI kém,0.043,0.441,1.203
+gió vừa (5-10) + đêm (0-5h) + ẩm cao (>80),AQI kém,0.041,0.44,1.203
+gió vừa (5-10) + ngày thường + nhiệt vừa,AQI kém,0.043,0.439,1.2
+Xuân + áp suất vừa,AQI tốt-TB,0.04,0.391,1.197
+gió vừa (5-10) + áp suất thấp,AQI kém,0.058,0.439,1.197
+ngày thường + áp suất cao,AQI tốt-TB,0.093,0.391,1.196
+gió vừa (5-10) + nhiệt cao + áp suất thấp,AQI kém,0.038,0.438,1.196
+gió vừa (5-10) + ngày thường + nhiệt cao,AQI xấu+,0.034,0.367,1.195
+Hè,AQI kém,0.119,0.438,1.195
+gió vừa (5-10) + không mưa + ngày thường,AQI xấu+,0.087,0.367,1.195
+ngày thường + áp suất vừa + ẩm cao (>80),AQI kém,0.066,0.437,1.194
+tối (17-23h),AQI xấu+,0.107,0.367,1.194
+nhiệt thấp + áp suất cao + Đông,AQI tốt-TB,0.06,0.39,1.192
+không mưa + ngày thường + nhiệt thấp,AQI xấu+,0.08,0.365,1.19
+không mưa + nhiệt thấp + áp suất cao,AQI xấu+,0.089,0.365,1.189
+nhiệt thấp + áp suất cao + đêm (0-5h),AQI tốt-TB,0.03,0.389,1.189
+Xuân + gió mạnh (>=10) + ngày thường,AQI tốt-TB,0.037,0.388,1.188
+Hè + gió vừa (5-10) + ngày thường,AQI kém,0.037,0.435,1.187
+Thu + áp suất vừa,AQI kém,0.052,0.434,1.186
+không mưa + sáng (6-10h) + ẩm cao (>80),AQI kém,0.041,0.434,1.186
+Thu + nhiệt vừa,AQI tốt-TB,0.047,0.387,1.186
+Xuân + ngày thường + nhiệt thấp,AQI tốt-TB,0.039,0.387,1.185
+không mưa + áp suất cao,AQI xấu+,0.109,0.364,1.185
+nhiệt vừa + áp suất vừa,AQI kém,0.076,0.434,1.184
+trưa-chiều (11-16h) + áp suất thấp,AQI kém,0.041,0.434,1.184
+gió vừa (5-10) + nhiệt thấp,AQI xấu+,0.051,0.363,1.183
+cuối tuần + gió vừa (5-10),AQI kém,0.048,0.433,1.181
+ngày thường + nhiệt vừa + ẩm cao (>80),AQI kém,0.079,0.432,1.181
+nhiệt cao + trưa-chiều (11-16h),AQI kém,0.062,0.432,1.18
+Thu + ngày thường + áp suất vừa,AQI kém,0.036,0.432,1.18
+không mưa + nhiệt cao + ẩm vừa (60-80),AQI xấu+,0.053,0.362,1.179
+áp suất cao,AQI tốt-TB,0.127,0.385,1.179
+Thu + gió yếu (<5),AQI kém,0.031,0.432,1.178
+không mưa + áp suất vừa,AQI kém,0.116,0.43,1.175
+Hè + ẩm vừa (60-80),AQI kém,0.039,0.431,1.175
+Xuân + không mưa + nhiệt thấp,AQI tốt-TB,0.049,0.384,1.175
+áp suất thấp + đêm (0-5h),AQI kém,0.036,0.43,1.174
+không mưa + tối (17-23h) + áp suất cao,AQI tốt-TB,0.033,0.384,1.174
+gió vừa (5-10) + ngày thường + áp suất thấp,AQI kém,0.041,0.43,1.173
+ngày thường + nhiệt cao + ẩm vừa (60-80),AQI xấu+,0.044,0.36,1.173
+nhiệt cao,AQI xấu+,0.118,0.36,1.172
+nhiệt vừa + ẩm cao (>80),AQI kém,0.108,0.429,1.172
+gió vừa (5-10) + không mưa + nhiệt cao,AQI kém,0.045,0.429,1.172
+gió vừa (5-10) + ngày thường + nhiệt cao,AQI kém,0.039,0.429,1.171
+áp suất cao + đêm (0-5h),AQI tốt-TB,0.031,0.382,1.168
+Xuân + ngày thường + áp suất cao,AQI tốt-TB,0.031,0.381,1.167
+Thu + ngày thường + nhiệt vừa,AQI tốt-TB,0.033,0.381,1.166
+không mưa + ngày thường + nhiệt vừa,AQI kém,0.075,0.427,1.166
+gió vừa (5-10) + nhiệt cao,AQI xấu+,0.046,0.357,1.165
+Xuân + áp suất cao,AQI tốt-TB,0.043,0.381,1.165
+ngày thường + nhiệt thấp + áp suất cao,AQI xấu+,0.069,0.358,1.165
+Hè + ngày thường + nhiệt vừa,AQI kém,0.032,0.427,1.165
+không mưa + nhiệt vừa,AQI kém,0.105,0.427,1.165
+gió vừa (5-10) + không mưa,AQI xấu+,0.117,0.357,1.164
+áp suất vừa,AQI kém,0.142,0.426,1.164
+cuối tuần + không mưa + nhiệt vừa,AQI kém,0.03,0.426,1.164
+nhiệt cao + ẩm cao (>80),AQI xấu+,0.041,0.357,1.163
+không mưa + đêm (0-5h) + ẩm cao (>80),AQI kém,0.069,0.426,1.163
+Thu + không mưa + nhiệt vừa,AQI kém,0.034,0.426,1.162
+không mưa + nhiệt thấp + tối (17-23h),AQI tốt-TB,0.035,0.38,1.161
+Hè + có mưa,AQI kém,0.032,0.425,1.16
+không mưa + nhiệt thấp + áp suất cao,AQI tốt-TB,0.093,0.379,1.16
+trưa-chiều (11-16h) + ẩm vừa (60-80),AQI kém,0.059,0.424,1.159
+Hè + nhiệt cao,AQI kém,0.069,0.425,1.159
+Hè + không mưa + ẩm vừa (60-80),AQI kém,0.032,0.424,1.158
+gió vừa (5-10) + trưa-chiều (11-16h),AQI kém,0.039,0.424,1.158
+Hè + không mưa + nhiệt cao,AQI kém,0.055,0.424,1.157
+gió vừa (5-10) + ẩm cao (>80),AQI kém,0.097,0.424,1.157
+không mưa + ngày thường + áp suất vừa,AQI kém,0.081,0.424,1.157
+không mưa + nhiệt cao + trưa-chiều (11-16h),AQI kém,0.046,0.423,1.155
+Thu + gió vừa (5-10),AQI kém,0.045,0.423,1.154
+Hè + nhiệt cao + ẩm vừa (60-80),AQI kém,0.035,0.423,1.154
+nhiệt thấp + đêm (0-5h),AQI tốt-TB,0.042,0.377,1.153
+ngày thường + sáng (6-10h) + ẩm cao (>80),AQI kém,0.038,0.422,1.152
+đêm (0-5h) + ẩm cao (>80),AQI kém,0.089,0.422,1.151
+sáng (6-10h) + ẩm cao (>80),AQI kém,0.053,0.421,1.151
+không mưa + tối (17-23h) + ẩm cao (>80),AQI xấu+,0.047,0.353,1.151
+không mưa + ngày thường,AQI xấu+,0.207,0.353,1.15
+Hè + ngày thường + ẩm cao (>80),AQI kém,0.051,0.421,1.15
+gió vừa (5-10) + không mưa + ẩm vừa (60-80),AQI xấu+,0.041,0.353,1.15
+Thu + gió vừa (5-10) + ngày thường,AQI kém,0.032,0.421,1.15
+Thu + nhiệt vừa + ẩm cao (>80),AQI kém,0.043,0.421,1.149
+không mưa + ngày thường + nhiệt thấp,AQI tốt-TB,0.083,0.375,1.149
+không mưa + ngày thường + ẩm cao (>80),AQI xấu+,0.099,0.352,1.148
+gió vừa (5-10) + không mưa + ẩm cao (>80),AQI kém,0.071,0.42,1.147
+không mưa + nhiệt thấp,AQI tốt-TB,0.114,0.375,1.147
+Thu + không mưa + ẩm cao (>80),AQI xấu+,0.035,0.352,1.147
+Hè + áp suất thấp + ẩm cao (>80),AQI kém,0.047,0.42,1.147
+không mưa + áp suất thấp + ẩm cao (>80),AQI kém,0.055,0.42,1.146
+gió vừa (5-10) + không mưa + áp suất thấp,AQI kém,0.041,0.42,1.146
+ngày thường + nhiệt vừa + áp suất vừa,AQI kém,0.053,0.42,1.146
+ngày thường + áp suất cao,AQI xấu+,0.083,0.352,1.146
+cuối tuần + gió vừa (5-10) + không mưa,AQI kém,0.039,0.42,1.145
+ngày thường + nhiệt thấp + ẩm cao (>80),AQI xấu+,0.043,0.351,1.145
+cuối tuần + không mưa + ẩm cao (>80),AQI kém,0.048,0.419,1.144
+cuối tuần + không mưa + nhiệt thấp,AQI tốt-TB,0.032,0.373,1.14
+ngày thường + nhiệt vừa + áp suất thấp,AQI kém,0.033,0.417,1.14
+gió vừa (5-10) + ngày thường + ẩm vừa (60-80),AQI xấu+,0.032,0.35,1.14
+cuối tuần + nhiệt vừa,AQI kém,0.038,0.417,1.139
+ngày thường + áp suất vừa,AQI kém,0.099,0.417,1.139
+Hè + không mưa + ngày thường,AQI kém,0.058,0.417,1.138
+Hè + nhiệt cao + áp suất thấp,AQI kém,0.056,0.416,1.137
+nhiệt vừa + tối (17-23h),AQI tốt-TB,0.036,0.371,1.137
+cuối tuần + áp suất cao,AQI tốt-TB,0.035,0.371,1.137
+ngày thường + nhiệt cao + ẩm vừa (60-80),AQI kém,0.051,0.416,1.136
+không mưa + ngày thường + áp suất cao,AQI tốt-TB,0.08,0.371,1.135
+Xuân + nhiệt vừa,AQI kém,0.033,0.416,1.135
+không mưa + nhiệt cao + ẩm cao (>80),AQI kém,0.036,0.416,1.135
+gió mạnh (>=10) + không mưa + tối (17-23h),AQI xấu+,0.037,0.348,1.135
+Thu + không mưa,AQI xấu+,0.066,0.348,1.134
+nhiệt thấp + Đông,AQI tốt-TB,0.064,0.37,1.133
+áp suất cao + Đông,AQI tốt-TB,0.065,0.37,1.133
+Hè + ngày thường,AQI kém,0.081,0.415,1.132
+Hè + áp suất thấp,AQI kém,0.079,0.414,1.131
+Xuân + gió vừa (5-10),AQI xấu+,0.03,0.347,1.13
+nhiệt cao + ẩm vừa (60-80),AQI kém,0.072,0.414,1.13
+nhiệt cao + ẩm cao (>80),AQI kém,0.047,0.414,1.13
+Thu + không mưa + ngày thường,AQI xấu+,0.047,0.346,1.129
+Thu + ngày thường + ẩm cao (>80),AQI kém,0.044,0.414,1.129
+nhiệt vừa,AQI kém,0.138,0.413,1.128
+gió vừa (5-10) + ngày thường + ẩm cao (>80),AQI kém,0.069,0.413,1.128
+Thu + ẩm cao (>80),AQI kém,0.062,0.413,1.128
+không mưa + trưa-chiều (11-16h) + ẩm vừa (60-80),AQI kém,0.046,0.413,1.127
+ngày thường + áp suất thấp,AQI xấu+,0.083,0.346,1.127
+cuối tuần + nhiệt cao,AQI kém,0.04,0.412,1.126
+không mưa + nhiệt thấp + tối (17-23h),AQI xấu+,0.032,0.346,1.126
+không mưa + nhiệt thấp,AQI xấu+,0.105,0.345,1.125
+không mưa + ngày thường + trưa-chiều (11-16h),AQI xấu+,0.048,0.345,1.125
+nhiệt cao + ẩm vừa (60-80),AQI xấu+,0.06,0.345,1.125
+gió mạnh (>=10) + áp suất thấp,AQI tốt-TB,0.049,0.367,1.125
+ngày thường + đêm (0-5h) + ẩm cao (>80),AQI kém,0.062,0.412,1.124
+Hè + không mưa + áp suất thấp,AQI kém,0.057,0.412,1.124
+ngày thường + nhiệt vừa,AQI kém,0.1,0.412,1.124
+gió vừa (5-10) + đêm (0-5h),AQI kém,0.045,0.411,1.122
+ngày thường + nhiệt thấp + Đông,AQI tốt-TB,0.046,0.366,1.121
+gió vừa (5-10) + không mưa + ẩm cao (>80),AQI xấu+,0.058,0.344,1.121
+ngày thường + áp suất cao + Đông,AQI tốt-TB,0.046,0.366,1.119
+không mưa + ẩm cao (>80),AQI kém,0.163,0.41,1.119
+Hè + gió mạnh (>=10) + không mưa,AQI kém,0.03,0.41,1.119
+cuối tuần + áp suất vừa,AQI tốt-TB,0.035,0.366,1.119
+Xuân + không mưa + nhiệt vừa,AQI kém,0.03,0.41,1.119
+gió mạnh (>=10) + tối (17-23h),AQI tốt-TB,0.044,0.365,1.118
+ngày thường + trưa-chiều (11-16h) + ẩm vừa (60-80),AQI kém,0.041,0.41,1.118
+Thu + gió vừa (5-10) + không mưa,AQI kém,0.034,0.409,1.117
+áp suất cao,AQI xấu+,0.113,0.343,1.117
+ngày thường + áp suất thấp + ẩm cao (>80),AQI kém,0.058,0.409,1.116
+gió vừa (5-10) + ẩm vừa (60-80),AQI xấu+,0.044,0.343,1.116
+Thu + ngày thường + nhiệt cao,AQI kém,0.033,0.408,1.115
+nhiệt thấp + áp suất cao,AQI xấu+,0.092,0.342,1.114
+nhiệt vừa + áp suất thấp + ẩm cao (>80),AQI kém,0.042,0.408,1.114
+cuối tuần + không mưa + nhiệt cao,AQI kém,0.033,0.408,1.114
+không mưa + đêm (0-5h) + ẩm cao (>80),AQI xấu+,0.055,0.342,1.113
+ngày thường + nhiệt thấp,AQI xấu+,0.083,0.342,1.113
+áp suất thấp + ẩm cao (>80),AQI kém,0.08,0.407,1.112
+không mưa + áp suất cao,AQI tốt-TB,0.109,0.363,1.111
+Hè + nhiệt vừa + ẩm cao (>80),AQI tốt-TB,0.035,0.363,1.111
+nhiệt cao,AQI kém,0.133,0.406,1.11
+Xuân + không mưa + áp suất cao,AQI tốt-TB,0.037,0.363,1.11
+không mưa + ngày thường + ẩm cao (>80),AQI kém,0.114,0.406,1.109
+áp suất thấp,AQI xấu+,0.114,0.34,1.109
+cuối tuần + ẩm cao (>80),AQI kém,0.062,0.405,1.105
+không mưa,AQI xấu+,0.278,0.339,1.104
+không mưa + ngày thường + ẩm vừa (60-80),AQI xấu+,0.076,0.339,1.103
+áp suất vừa + ẩm vừa (60-80),AQI kém,0.04,0.404,1.103
+ngày thường + nhiệt cao,AQI kém,0.093,0.404,1.103
+không mưa + nhiệt cao + ẩm vừa (60-80),AQI kém,0.059,0.404,1.102
+gió yếu (<5) + ẩm cao (>80),AQI kém,0.055,0.404,1.102
+nhiệt vừa + áp suất thấp,AQI kém,0.044,0.403,1.101
+không mưa + nhiệt vừa + tối (17-23h),AQI kém,0.031,0.403,1.101
+Xuân + nhiệt thấp + ẩm cao (>80),AQI tốt-TB,0.031,0.36,1.101
+gió yếu (<5) + không mưa + ẩm cao (>80),AQI kém,0.044,0.403,1.1
+Hè + nhiệt vừa,AQI tốt-TB,0.037,0.359,1.099
+Xuân + ngày thường + ẩm cao (>80),AQI kém,0.04,0.402,1.098
+nhiệt vừa + áp suất thấp + ẩm cao (>80),AQI tốt-TB,0.037,0.359,1.098
+Hè + ngày thường + nhiệt cao,AQI kém,0.046,0.402,1.097
+gió vừa (5-10) + ngày thường + đêm (0-5h),AQI kém,0.032,0.401,1.096
+gió mạnh (>=10) + không mưa + ẩm cao (>80),AQI kém,0.048,0.401,1.096
+Hè + gió mạnh (>=10),AQI kém,0.039,0.401,1.096
+ngày thường + tối (17-23h) + ẩm cao (>80),AQI xấu+,0.039,0.336,1.093
+ngày thường + áp suất thấp,AQI kém,0.096,0.4,1.093
+gió mạnh (>=10) + không mưa + áp suất thấp,AQI kém,0.04,0.4,1.093
+không mưa + nhiệt cao,AQI kém,0.108,0.4,1.092
+áp suất thấp,AQI kém,0.134,0.399,1.091
+không mưa + nhiệt thấp + đêm (0-5h),AQI xấu+,0.033,0.335,1.091
+không mưa + áp suất thấp,AQI kém,0.1,0.4,1.091
+trưa-chiều (11-16h) + áp suất vừa,AQI kém,0.032,0.399,1.09
+nhiệt cao + áp suất thấp + ẩm cao (>80),AQI kém,0.036,0.399,1.09
+gió vừa (5-10) + không mưa + đêm (0-5h),AQI kém,0.035,0.399,1.09
+không mưa + nhiệt thấp + đêm (0-5h),AQI tốt-TB,0.035,0.356,1.09
+gió vừa (5-10) + ngày thường + áp suất thấp,AQI xấu+,0.032,0.334,1.089
+có mưa + áp suất thấp,AQI kém,0.034,0.399,1.089
+Hè + ngày thường + áp suất thấp,AQI kém,0.054,0.399,1.089
+không mưa + ngày thường + áp suất thấp,AQI kém,0.071,0.398,1.088
+ngày thường + nhiệt cao + ẩm cao (>80),AQI kém,0.032,0.398,1.088
+không mưa + ẩm cao (>80),AQI xấu+,0.132,0.334,1.087
+gió mạnh (>=10) + không mưa + nhiệt vừa,AQI kém,0.038,0.398,1.087
+ẩm cao (>80),AQI kém,0.214,0.398,1.087
+Thu + nhiệt vừa + ẩm cao (>80),AQI tốt-TB,0.036,0.355,1.086
+không mưa + trưa-chiều (11-16h),AQI xấu+,0.065,0.333,1.086
+cuối tuần + nhiệt vừa,AQI tốt-TB,0.033,0.355,1.086
+nhiệt vừa + áp suất thấp,AQI tốt-TB,0.039,0.354,1.084
+cuối tuần + áp suất thấp,AQI kém,0.038,0.397,1.084
+cuối tuần + gió vừa (5-10) + không mưa,AQI xấu+,0.031,0.332,1.083
+Xuân + không mưa + ngày thường,AQI xấu+,0.057,0.333,1.083
+nhiệt vừa + áp suất vừa + ẩm cao (>80),AQI tốt-TB,0.048,0.354,1.082
+không mưa + ngày thường + nhiệt cao,AQI kém,0.076,0.396,1.082
+nhiệt vừa + áp suất vừa,AQI tốt-TB,0.062,0.354,1.082
+không mưa + áp suất vừa + ẩm vừa (60-80),AQI kém,0.035,0.396,1.081
+gió vừa (5-10) + áp suất thấp,AQI xấu+,0.044,0.331,1.08
+ngày thường + ẩm cao (>80),AQI kém,0.152,0.396,1.08
+tối (17-23h) + áp suất cao,AQI xấu+,0.03,0.331,1.08
+nhiệt cao + áp suất thấp + ẩm vừa (60-80),AQI kém,0.045,0.396,1.08
+không mưa + tối (17-23h) + áp suất vừa,AQI kém,0.034,0.395,1.079
+nhiệt vừa + ẩm cao (>80),AQI tốt-TB,0.089,0.352,1.079
+áp suất vừa + ẩm cao (>80),AQI tốt-TB,0.075,0.353,1.079
+nhiệt cao + áp suất thấp,AQI kém,0.088,0.395,1.078
+Xuân + không mưa + ẩm cao (>80),AQI kém,0.049,0.395,1.077
+gió vừa (5-10) + ngày thường,AQI xấu+,0.095,0.33,1.076
+gió vừa (5-10),AQI kém,0.157,0.394,1.076
+Xuân + ẩm cao (>80),AQI kém,0.055,0.394,1.076
+Thu + ngày thường + nhiệt vừa,AQI kém,0.034,0.394,1.075
+nhiệt thấp + ẩm cao (>80),AQI xấu+,0.056,0.33,1.074
+không mưa + nhiệt cao + trưa-chiều (11-16h),AQI xấu+,0.035,0.33,1.074
+nhiệt thấp + tối (17-23h),AQI xấu+,0.032,0.33,1.074
+không mưa + sáng (6-10h),AQI kém,0.067,0.393,1.074
+Xuân + gió vừa (5-10),AQI kém,0.034,0.394,1.074
+không mưa + ngày thường + đêm (0-5h),AQI xấu+,0.047,0.329,1.073
+ngày thường + áp suất thấp + ẩm vừa (60-80),AQI kém,0.034,0.393,1.073
+ngày thường + nhiệt vừa + áp suất vừa,AQI tốt-TB,0.044,0.35,1.072
+Thu + nhiệt cao,AQI kém,0.046,0.392,1.071
+sáng (6-10h),AQI kém,0.082,0.392,1.071
+gió mạnh (>=10) + ngày thường + nhiệt cao,AQI kém,0.035,0.392,1.071
+ngày thường + ẩm vừa (60-80),AQI xấu+,0.082,0.329,1.071
+áp suất thấp + ẩm vừa (60-80),AQI kém,0.047,0.392,1.069
+Thu + nhiệt vừa,AQI kém,0.047,0.392,1.069
+Đông,AQI tốt-TB,0.074,0.349,1.068
+Xuân + gió vừa (5-10) + không mưa,AQI kém,0.032,0.391,1.068
+Thu + không mưa + ngày thường,AQI kém,0.052,0.39,1.065
+Xuân + áp suất vừa,AQI kém,0.04,0.39,1.065
+không mưa + ẩm vừa (60-80),AQI xấu+,0.103,0.326,1.064
+cuối tuần + áp suất thấp,AQI xấu+,0.032,0.327,1.064
+gió vừa (5-10) + nhiệt thấp + áp suất cao,AQI tốt-TB,0.039,0.347,1.063
+nhiệt vừa,AQI tốt-TB,0.116,0.347,1.063
+không mưa + ẩm thấp (<60),AQI tốt-TB,0.038,0.347,1.062
+gió yếu (<5) + ngày thường + ẩm cao (>80),AQI kém,0.038,0.389,1.062
+cuối tuần + nhiệt cao,AQI xấu+,0.032,0.326,1.061
+ngày thường + nhiệt cao + áp suất thấp,AQI kém,0.061,0.388,1.06
+gió mạnh (>=10) + nhiệt cao,AQI tốt-TB,0.045,0.346,1.058
+gió vừa (5-10) + ngày thường + nhiệt thấp,AQI tốt-TB,0.034,0.346,1.058
+đêm (0-5h),AQI kém,0.097,0.388,1.058
+không mưa + nhiệt cao + áp suất thấp,AQI kém,0.07,0.387,1.058
+cuối tuần + ẩm cao (>80),AQI tốt-TB,0.053,0.345,1.057
+ẩm thấp (<60),AQI tốt-TB,0.039,0.345,1.057
+ngày thường + nhiệt vừa + ẩm cao (>80),AQI tốt-TB,0.063,0.345,1.056
+cuối tuần + không mưa,AQI kém,0.091,0.387,1.056
+ngày thường + nhiệt vừa,AQI tốt-TB,0.084,0.345,1.055
+cuối tuần + ẩm vừa (60-80),AQI kém,0.039,0.386,1.055
+gió vừa (5-10),AQI xấu+,0.129,0.324,1.055
+gió mạnh (>=10) + tối (17-23h),AQI xấu+,0.039,0.324,1.055
+tối (17-23h) + ẩm cao (>80),AQI xấu+,0.053,0.323,1.054
+Thu + không mưa,AQI kém,0.074,0.386,1.054
+cuối tuần,AQI kém,0.11,0.385,1.052
+nhiệt thấp,AQI xấu+,0.109,0.323,1.052
+nhiệt vừa + tối (17-23h),AQI kém,0.037,0.385,1.051
+không mưa + đêm (0-5h),AQI kém,0.077,0.384,1.049
+ngày thường + áp suất vừa + ẩm cao (>80),AQI tốt-TB,0.052,0.342,1.048
+ngày thường + sáng (6-10h),AQI kém,0.057,0.383,1.046
+Xuân + không mưa + ẩm vừa (60-80),AQI xấu+,0.03,0.321,1.046
+không mưa + áp suất cao + Đông,AQI tốt-TB,0.056,0.342,1.046
+Thu + ngày thường,AQI kém,0.069,0.383,1.046
+không mưa + nhiệt thấp + Đông,AQI tốt-TB,0.054,0.341,1.045
+tối (17-23h) + áp suất vừa,AQI tốt-TB,0.033,0.341,1.044
+gió mạnh (>=10) + không mưa + nhiệt cao,AQI kém,0.042,0.382,1.043
+gió mạnh (>=10) + ngày thường + áp suất thấp,AQI tốt-TB,0.032,0.34,1.041
+gió mạnh (>=10) + ngày thường + áp suất thấp,AQI kém,0.036,0.381,1.041
+gió vừa (5-10) + không mưa,AQI kém,0.125,0.381,1.04
+ngày thường + Đông,AQI tốt-TB,0.051,0.34,1.04
+Xuân + ẩm cao (>80),AQI tốt-TB,0.048,0.34,1.039
+không mưa + ngày thường + sáng (6-10h),AQI kém,0.046,0.381,1.039
+ngày thường,AQI xấu+,0.228,0.319,1.039
+không mưa + áp suất thấp + ẩm vừa (60-80),AQI kém,0.038,0.381,1.039
+gió vừa (5-10) + ngày thường + áp suất cao,AQI tốt-TB,0.032,0.339,1.038
+gió mạnh (>=10) + nhiệt cao,AQI kém,0.05,0.38,1.038
+Xuân + ngày thường,AQI xấu+,0.06,0.319,1.038
+gió vừa (5-10) + ngày thường,AQI kém,0.109,0.379,1.036
+gió yếu (<5),AQI kém,0.082,0.38,1.036
+Thu,AQI kém,0.096,0.38,1.036
+có mưa + ngày thường,AQI kém,0.049,0.379,1.035
+có mưa,AQI kém,0.068,0.379,1.035
+cuối tuần + không mưa + ẩm vừa (60-80),AQI kém,0.034,0.379,1.035
+Thu + không mưa + nhiệt cao,AQI kém,0.036,0.379,1.035
+Xuân + không mưa + áp suất vừa,AQI kém,0.035,0.379,1.034
+không mưa + tối (17-23h) + ẩm cao (>80),AQI kém,0.05,0.379,1.034
+gió mạnh (>=10) + ngày thường + áp suất vừa,AQI kém,0.035,0.378,1.032
+cuối tuần,AQI tốt-TB,0.096,0.337,1.032
+Thu + áp suất vừa,AQI tốt-TB,0.04,0.337,1.031
+Xuân + ẩm vừa (60-80),AQI xấu+,0.031,0.316,1.03
+tối (17-23h) + áp suất vừa,AQI kém,0.036,0.377,1.03
+ẩm vừa (60-80),AQI xấu+,0.111,0.316,1.029
+gió mạnh (>=10) + nhiệt cao + ẩm vừa (60-80),AQI kém,0.03,0.377,1.029
+đêm (0-5h),AQI tốt-TB,0.084,0.336,1.028
+áp suất vừa,AQI tốt-TB,0.112,0.336,1.028
+không mưa + ngày thường + sáng (6-10h),AQI xấu+,0.038,0.316,1.028
+gió mạnh (>=10) + ngày thường + ẩm cao (>80),AQI kém,0.045,0.376,1.027
+không mưa + ngày thường + ẩm vừa (60-80),AQI tốt-TB,0.075,0.336,1.027
+ngày thường + đêm (0-5h),AQI kém,0.067,0.376,1.027
+có mưa + nhiệt vừa + ẩm cao (>80),AQI kém,0.032,0.376,1.026
+có mưa + nhiệt vừa,AQI kém,0.034,0.376,1.026
+gió vừa (5-10) + nhiệt thấp,AQI tốt-TB,0.047,0.335,1.026
+không mưa + ngày thường + đêm (0-5h),AQI kém,0.053,0.376,1.025
+ngày thường + ẩm vừa (60-80),AQI tốt-TB,0.084,0.335,1.025
+sáng (6-10h),AQI tốt-TB,0.07,0.335,1.024
+Hè + không mưa + nhiệt cao,AQI xấu+,0.041,0.314,1.024
+Xuân + nhiệt thấp + ẩm cao (>80),AQI kém,0.032,0.375,1.023
+ngày thường + áp suất thấp + ẩm cao (>80),AQI xấu+,0.044,0.314,1.023
+Hè + không mưa + áp suất thấp,AQI xấu+,0.043,0.313,1.021
+ẩm vừa (60-80),AQI tốt-TB,0.117,0.333,1.02
+Xuân + không mưa,AQI xấu+,0.076,0.313,1.02
+ngày thường + đêm (0-5h),AQI tốt-TB,0.06,0.333,1.02
+Thu + gió vừa (5-10),AQI xấu+,0.033,0.313,1.019
+gió yếu (<5) + không mưa,AQI kém,0.068,0.373,1.019
+không mưa + đêm (0-5h),AQI xấu+,0.063,0.313,1.019
+Xuân,AQI tốt-TB,0.088,0.333,1.019
+gió mạnh (>=10) + nhiệt cao + áp suất thấp,AQI kém,0.034,0.373,1.018
+ngày thường + sáng (6-10h),AQI tốt-TB,0.05,0.333,1.018
+gió mạnh (>=10) + ngày thường + nhiệt vừa,AQI kém,0.035,0.372,1.017
+không mưa + ẩm vừa (60-80),AQI tốt-TB,0.105,0.332,1.017
+trưa-chiều (11-16h),AQI kém,0.093,0.372,1.016
+Hè + ngày thường + ẩm cao (>80),AQI tốt-TB,0.04,0.332,1.016
+trưa-chiều (11-16h),AQI tốt-TB,0.083,0.332,1.016
+Hè + ngày thường + nhiệt cao,AQI xấu+,0.036,0.312,1.015
+nhiệt thấp + đêm (0-5h),AQI xấu+,0.034,0.311,1.014
+gió mạnh (>=10) + không mưa + áp suất vừa,AQI kém,0.041,0.371,1.014
+gió mạnh (>=10) + áp suất thấp,AQI kém,0.049,0.371,1.013
+gió vừa (5-10) + ẩm vừa (60-80),AQI kém,0.047,0.37,1.01
+gió yếu (<5) + ngày thường,AQI kém,0.057,0.37,1.01
+Hè + nhiệt cao + áp suất thấp,AQI xấu+,0.042,0.31,1.01
+gió mạnh (>=10) + không mưa + tối (17-23h),AQI tốt-TB,0.035,0.33,1.009
+gió mạnh (>=10) + không mưa + áp suất thấp,AQI xấu+,0.031,0.31,1.008
+cuối tuần + ẩm vừa (60-80),AQI tốt-TB,0.033,0.329,1.007
+gió mạnh (>=10) + áp suất vừa,AQI kém,0.05,0.369,1.006
+nhiệt thấp + ẩm cao (>80),AQI tốt-TB,0.056,0.329,1.006
+áp suất thấp + ẩm cao (>80),AQI xấu+,0.061,0.308,1.004
+Xuân,AQI kém,0.097,0.367,1.003
+Xuân + gió mạnh (>=10) + ngày thường,AQI kém,0.035,0.367,1.003
+Xuân + không mưa + ẩm vừa (60-80),AQI tốt-TB,0.031,0.328,1.003
+ngày thường + trưa-chiều (11-16h),AQI tốt-TB,0.059,0.327,1.002
+ngày thường + đêm (0-5h) + ẩm cao (>80),AQI xấu+,0.046,0.307,1.001
+Xuân + không mưa + áp suất cao,AQI xấu+,0.031,0.307,1.001
+có mưa + ngày thường + ẩm cao (>80),AQI kém,0.038,0.366,1.0
+cuối tuần + gió vừa (5-10),AQI xấu+,0.034,0.307,1.0
+gió mạnh (>=10) + nhiệt vừa + ẩm cao (>80),AQI kém,0.031,0.366,1.0
+gió vừa (5-10) + nhiệt vừa + ẩm cao (>80),AQI tốt-TB,0.034,0.327,1.0

@@ -1,0 +1,26 @@
+collected_at,location_id,location_name,provider,license_names,latitude,longitude,sensor_id,parameter,value,unit,observed_at,age_hours
+2026-10-25 23:23:32,6123215,OceanPark,AirGradient,CC BY 4.0,20.9933,105.9441,14581375,pm25,68.6,µg/m³,2026-10-25 08:00:00,15.39
+2026-10-25 21:56:39,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502154,pm25,70.35,µg/m³,2026-10-25 21:35:00,0.36
+2026-10-25 21:56:39,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502152,pm10,84.73,µg/m³,2026-10-25 21:35:00,0.36
+2026-10-25 21:56:39,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502151,pm25,51.62,µg/m³,2026-10-25 21:35:00,0.36
+2026-10-25 21:56:39,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502153,pm10,63.69,µg/m³,2026-10-25 21:35:00,0.36
+2026-10-25 22:08:33,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502154,pm25,73.44,µg/m³,2026-10-25 21:50:00,0.31
+2026-10-25 22:08:33,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502152,pm10,86.36,µg/m³,2026-10-25 21:50:00,0.31
+2026-10-25 22:08:33,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502151,pm25,52.32,µg/m³,2026-10-25 21:50:00,0.31
+2026-10-25 22:08:33,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502153,pm10,63.65,µg/m³,2026-10-25 21:50:00,0.31
+2026-10-25 22:42:42,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502151,pm25,53.13,µg/m³,2026-10-25 22:20:00,0.38
+2026-10-25 22:42:42,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502153,pm10,68.33,µg/m³,2026-10-25 22:20:00,0.38
+2026-10-25 22:51:32,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502154,pm25,75.81,µg/m³,2026-10-25 22:20:00,0.53
+2026-10-25 22:51:32,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502152,pm10,87.51,µg/m³,2026-10-25 22:20:00,0.53
+2026-10-25 22:46:30,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502154,pm25,75.98,µg/m³,2026-10-25 22:35:00,0.19
+2026-10-25 22:46:30,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502152,pm10,88.86,µg/m³,2026-10-25 22:35:00,0.19
+2026-10-25 22:51:32,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502151,pm25,53.81,µg/m³,2026-10-25 22:35:00,0.28
+2026-10-25 22:51:32,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502153,pm10,66.91,µg/m³,2026-10-25 22:35:00,0.28
+2026-10-25 23:04:23,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502154,pm25,74.65,µg/m³,2026-10-25 22:50:00,0.24
+2026-10-25 23:04:23,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502152,pm10,86.08,µg/m³,2026-10-25 22:50:00,0.24
+2026-10-25 23:04:23,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502151,pm25,52.58,µg/m³,2026-10-25 22:50:00,0.24
+2026-10-25 23:04:23,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502153,pm10,72.91,µg/m³,2026-10-25 22:50:00,0.24
+2026-10-25 23:23:32,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502154,pm25,73.85,µg/m³,2026-10-25 23:05:00,0.31
+2026-10-25 23:23:32,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502152,pm10,82.91,µg/m³,2026-10-25 23:05:00,0.31
+2026-10-25 23:23:32,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502151,pm25,51.21,µg/m³,2026-10-25 23:05:00,0.31
+2026-10-25 23:23:32,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502153,pm10,77.45,µg/m³,2026-10-25 23:05:00,0.31

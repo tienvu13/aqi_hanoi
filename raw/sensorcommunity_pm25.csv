@@ -1,0 +1,14 @@
+collected_at,source,location_id,location_name,provider,latitude,longitude,parameter,value,unit,observed_at
+2026-10-25 22:29:08.703328,Sensor.Community,99385,Sensor 99385 (SDS011),Sensor.Community,21.07,105.824,pm25,38.1,µg/m³,2026-10-25 22:25:39
+2026-10-25 22:33:43.434208,Sensor.Community,99385,Sensor 99385 (SDS011),Sensor.Community,21.07,105.824,pm25,38.0,µg/m³,2026-10-25 22:28:21
+2026-10-25 22:33:43.434208,Sensor.Community,99385,Sensor 99385 (SDS011),Sensor.Community,21.07,105.824,pm25,35.5,µg/m³,2026-10-25 22:31:01
+2026-10-25 22:44:46.181463,Sensor.Community,99385,Sensor 99385 (SDS011),Sensor.Community,21.07,105.824,pm25,33.2,µg/m³,2026-10-25 22:39:04
+2026-10-25 22:46:28.135612,Sensor.Community,99385,Sensor 99385 (SDS011),Sensor.Community,21.07,105.824,pm25,32.2,µg/m³,2026-10-25 22:41:46
+2026-10-25 22:46:28.135612,Sensor.Community,99385,Sensor 99385 (SDS011),Sensor.Community,21.07,105.824,pm25,31.6,µg/m³,2026-10-25 22:44:28
+2026-10-25 22:51:30.459943,Sensor.Community,99385,Sensor 99385 (SDS011),Sensor.Community,21.07,105.824,pm25,32.7,µg/m³,2026-10-25 22:47:09
+2026-10-25 22:51:30.459943,Sensor.Community,99385,Sensor 99385 (SDS011),Sensor.Community,21.07,105.824,pm25,31.9,µg/m³,2026-10-25 22:49:49
+2026-10-25 23:01:58.612415,Sensor.Community,99385,Sensor 99385 (SDS011),Sensor.Community,21.07,105.824,pm25,33.2,µg/m³,2026-10-25 22:57:55
+2026-10-25 23:04:21.209150,Sensor.Community,99385,Sensor 99385 (SDS011),Sensor.Community,21.07,105.824,pm25,35.9,µg/m³,2026-10-25 23:00:37
+2026-10-25 23:04:21.209150,Sensor.Community,99385,Sensor 99385 (SDS011),Sensor.Community,21.07,105.824,pm25,31.1,µg/m³,2026-10-25 23:03:20
+2026-10-25 23:23:29.895794,Sensor.Community,99385,Sensor 99385 (SDS011),Sensor.Community,21.07,105.824,pm25,31.4,µg/m³,2026-10-25 23:19:26
+2026-10-25 23:23:29.895794,Sensor.Community,99385,Sensor 99385 (SDS011),Sensor.Community,21.07,105.824,pm25,31.2,µg/m³,2026-10-25 23:22:08

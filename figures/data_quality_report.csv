@@ -1,0 +1,16 @@
+source,entity,rows,stations,latest_data,age_hours,duplicate_keys,missing_pct,status,detail
+raw/aq_model_hanoi.csv,all,24696,0,2026-10-25 23:00:00,0.4,0,0.0,OK,Fresh
+raw/weather_hanoi.csv,all,24696,0,2026-10-25 23:00:00,0.4,0,0.0,OK,Fresh
+raw/waqi_feed.csv,all,118,5,2026-10-25 22:00:00,1.4,0,6.2,OK,Fresh
+raw/waqi_feed.csv,station:1583,23,1,2026-10-25 15:00:00,8.4,0,0.0,WARN,No usable AQI observation within the freshness window
+raw/waqi_feed.csv,station:8641,22,1,,,0,21.05,WARN,No usable AQI observation within the freshness window
+raw/waqi_feed.csv,station:8688,29,1,2026-10-25 22:00:00,1.4,0,5.26,OK,Fresh
+raw/waqi_feed.csv,station:13026,22,1,,,0,0.0,WARN,No usable AQI observation within the freshness window
+raw/waqi_feed.csv,station:13251,22,1,,,0,5.26,WARN,No usable AQI observation within the freshness window
+clean/fact_model_hourly.csv,all,24696,0,2026-10-25 23:00:00,0.4,0,0.0,OK,Fresh
+clean/fact_station_hourly.csv,all,45,4,2026-10-25 23:00:00,0.4,0,0.0,OK,Fresh
+clean/station_feed_hourly.csv,all,8,2,2026-10-25 22:00:00,1.4,0,10.94,OK,Fresh
+raw/openaq_measurements.csv,all,25,3,2026-10-25 23:05:00,0.32,0,7.38,OK,Fresh
+raw/hanoi_portal_pm25.csv,all,18411,4,2026-10-25 23:20:00,0.07,0,0.0,OK,Fresh
+raw/sensorcommunity_pm25.csv,all,13,1,2026-10-25 23:22:08,0.03,0,0.0,OK,Fresh
+raw/noaa_vvnb_metar.csv,all,48,1,2026-10-25 23:00:00,0.4,0,0.0,OK,Fresh

@@ -1,0 +1,6 @@
+collected_at,location_id,location_name,provider,license_names,latitude,longitude,sensor_id,parameter,value,unit,observed_at,age_hours
+2026-10-25 23:23:32,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502154,pm25,73.85,µg/m³,2026-10-25 23:05:00,0.31
+2026-10-25 23:23:32,4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,Hanoi Air Quality Monitoring Network,,21.0052,105.8418,13502152,pm10,82.91,µg/m³,2026-10-25 23:05:00,0.31
+2026-10-25 23:23:32,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502151,pm25,51.21,µg/m³,2026-10-25 23:05:00,0.31
+2026-10-25 23:23:32,4946812,Công viên Nhân Chính - Khuất Duy Tiến,Hanoi Air Quality Monitoring Network,,21.0031,105.7947,13502153,pm10,77.45,µg/m³,2026-10-25 23:05:00,0.31
+2026-10-25 23:23:32,6123215,OceanPark,AirGradient,CC BY 4.0,20.9933,105.9441,14581375,pm25,68.6,µg/m³,2026-10-25 08:00:00,15.39

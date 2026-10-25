@@ -1,0 +1,7 @@
+horizon,model,threshold,accuracy,precision,recall,f1,auc
+6,Logistic Regression,0.7,0.913,0.884,0.886,0.885,0.972
+6,Random Forest,0.6,0.933,0.912,0.912,0.912,0.981
+6,Gradient Boosting,0.5,0.932,0.91,0.911,0.91,0.982
+24,Logistic Regression,0.6,0.792,0.707,0.765,0.735,0.87
+24,Random Forest,0.3,0.706,0.573,0.86,0.688,0.822
+24,Gradient Boosting,0.3,0.721,0.625,0.652,0.638,0.78
