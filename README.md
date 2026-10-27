@@ -61,8 +61,11 @@ Bạn cũng có thể lưu token WAQI mới trong tệp `waqi_token.txt` ở th�
 
 ### Cấu hình PostgreSQL (tùy chọn)
 
+Chỉ cần cấu hình nếu chạy các module trong `aqi_hanoi.database`. Thay thông tin
+bên dưới bằng thông tin kết nối PostgreSQL của bạn:
+
 ```powershell
-$env:DATABASE_URL = "postgresql+psycopg2://user:password@host:5432/database?sslmode=require"
+$env:DATABASE_URL = "postgresql+psycopg2://USER:PASSWORD@HOST:5432/DATABASE"
 ```
 
 ## 3. Chạy pipeline
@@ -220,7 +223,10 @@ streamlit run dashboard.py
 
 Dashboard có 4 trang:
 
-- **Tổng quan:** trạng thái pipeline, AQI CAMS mới nhất, xu hướng và độ phủ dữ liệu.
+- **Tổng quan:** trạng thái pipeline, AQI CAMS mới nhất, xu hướng và độ phủ
+  dữ liệu; biểu đồ PM2.5 CAMS trung bình theo từng giờ trong ngày, so sánh 4
+  mùa (Xuân 3–5, Hạ 6–8, Thu 9–11, Đông 12–2) và PM2.5 trung bình theo
+  khoảng tốc độ gió.
 - **Trạm WAQI:** tình trạng dữ liệu trạm, bản đồ, lịch sử AQI/PM và phép đo OpenAQ nếu có.
 - **Phân tích:** đánh giá offline, so sánh CAMS với WAQI và các nguồn PM2.5 bổ sung.
 - **Cảnh báo & báo cáo:** cảnh báo cục bộ, báo cáo chất lượng và tải ZIP báo cáo.

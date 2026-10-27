@@ -1,40 +1,40 @@
 {
-  "started_at": "2026-10-25T23:23:11+07:00",
-  "finished_at": "2026-10-25T23:24:12+07:00",
+  "started_at": "2026-10-27T14:28:18+07:00",
+  "finished_at": "2026-10-27T14:29:33+07:00",
   "sources": [
     {
       "source": "NOAA METAR VVNB",
-      "script": "collect_noaa_weather.py",
+      "script": "aqi_hanoi.collectors.collect_noaa_weather",
       "status": "SUCCEEDED",
-      "started_at": "2026-10-25T23:23:11+07:00",
-      "finished_at": "2026-10-25T23:23:12+07:00",
+      "started_at": "2026-10-27T14:28:18+07:00",
+      "finished_at": "2026-10-27T14:28:19+07:00",
       "exit_code": 0,
       "detail": ""
     },
     {
       "source": "Hanoi monitoring portal",
-      "script": "collect_hanoi_portal.py",
+      "script": "aqi_hanoi.collectors.collect_hanoi_portal",
       "status": "SUCCEEDED",
-      "started_at": "2026-10-25T23:23:12+07:00",
-      "finished_at": "2026-10-25T23:23:29+07:00",
+      "started_at": "2026-10-27T14:28:19+07:00",
+      "finished_at": "2026-10-27T14:28:49+07:00",
       "exit_code": 0,
       "detail": ""
     },
     {
       "source": "Sensor.Community",
-      "script": "collect_sensorcommunity.py",
+      "script": "aqi_hanoi.collectors.collect_sensorcommunity",
       "status": "SUCCEEDED",
-      "started_at": "2026-10-25T23:23:29+07:00",
-      "finished_at": "2026-10-25T23:23:31+07:00",
+      "started_at": "2026-10-27T14:28:49+07:00",
+      "finished_at": "2026-10-27T14:28:51+07:00",
       "exit_code": 0,
       "detail": ""
     },
     {
       "source": "OpenAQ",
-      "script": "collect_openaq.py",
+      "script": "aqi_hanoi.collectors.collect_openaq",
       "status": "SUCCEEDED",
-      "started_at": "2026-10-25T23:23:31+07:00",
-      "finished_at": "2026-10-25T23:24:12+07:00",
+      "started_at": "2026-10-27T14:28:51+07:00",
+      "finished_at": "2026-10-27T14:29:33+07:00",
       "exit_code": 0,
       "detail": ""
     }

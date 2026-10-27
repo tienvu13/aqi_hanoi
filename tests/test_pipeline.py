@@ -28,6 +28,10 @@ from aqi_hanoi.collectors.collect_waqi_feed import has_fresh_aqi
 from aqi_hanoi.collectors.collect_weather import main as collect_weather
 from aqi_hanoi.pipeline.data_quality import build_quality_report
 from aqi_hanoi.dashboard.dashboard_export import build_dashboard_export
+from aqi_hanoi.dashboard.dashboard_common import (
+    build_pm25_wind_summary,
+    build_seasonal_hourly_pm25,
+)
 from aqi_hanoi.pipeline.forecast_monitoring import record_and_resolve_forecasts
 from aqi_hanoi.core.http_utils import get_with_retry
 from aqi_hanoi.alerts.generate_alerts import generate_alerts
@@ -94,6 +98,50 @@ class PipelineUtilsTests(unittest.TestCase):
 
 
 class DashboardExportTests(unittest.TestCase):
+    def test_seasonal_hourly_pm25_averages_by_hour_and_season(self):
+        model = pd.DataFrame(
+            {"pm25": [10.0, 20.0, 30.0, 50.0, None]},
+            index=pd.to_datetime([
+                "2024-03-01 00:00",
+                "2025-03-01 00:00",
+                "2024-06-01 00:00",
+                "2024-12-01 01:00",
+                "2024-12-01 02:00",
+            ]),
+        )
+
+        profile, counts = build_seasonal_hourly_pm25(model)
+
+        self.assertEqual(list(profile.columns), ["Xuân", "Hạ", "Thu", "Đông"])
+        self.assertEqual(profile.loc[0, "Xuân"], 15.0)
+        self.assertEqual(profile.loc[0, "Hạ"], 30.0)
+        self.assertTrue(pd.isna(profile.loc[0, "Đông"]))
+        self.assertEqual(profile.loc[1, "Đông"], 50.0)
+        self.assertEqual(counts.to_dict(), {
+            "Xuân": 2, "Hạ": 1, "Thu": 0, "Đông": 1,
+        })
+
+    def test_pm25_wind_summary_groups_by_speed_and_skips_invalid_rows(self):
+        model = pd.DataFrame({
+            "wind_speed": [0.0, 5.0, 5.1, 10.0, 10.1, 15.0, 15.1, -1.0, None],
+            "pm25": [10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0],
+        })
+
+        summary = build_pm25_wind_summary(model)
+
+        self.assertEqual(
+            summary["wind_range"].tolist(), ["≤5", ">5–10", ">10–15", ">15"]
+        )
+        self.assertEqual(
+            summary["pm25_mean"].tolist(), [15.0, 35.0, 55.0, 70.0]
+        )
+        self.assertEqual(summary["observations"].tolist(), [2, 2, 2, 1])
+
+    def test_pm25_wind_summary_returns_empty_without_wind_speed(self):
+        summary = build_pm25_wind_summary(pd.DataFrame({"pm25": [10.0]}))
+
+        self.assertTrue(summary.empty)
+
     def test_export_bundle_includes_recent_safe_data_and_summary(self):
         with tempfile.TemporaryDirectory() as directory:
             project = Path(directory)

@@ -782,3 +782,698 @@ Cảnh báo: hãy xem các dòng WARN trước khi diễn giải kết quả.
 ===== notify_alerts.py =====
 Kết quả thông báo Windows: no_alert
 Hourly pipeline completed successfully.
+
+===== aqi_hanoi.collectors.collect_aq_model =====
+^C
+===== aqi_hanoi.collectors.collect_aq_model =====
+Đã cập nhật CAMS: 24720 giờ | tải từ 2026-10-24 | đến 2026-10-26 23:00:00
+
+===== aqi_hanoi.collectors.collect_weather =====
+Đã cập nhật thời tiết: 24720 giờ | archive từ 2026-10-19 | đến 2026-10-26 23:00:00
+
+===== aqi_hanoi.collectors.collect_waqi =====
+Đã ghi 5 trạm lúc 2026-10-26 22:30:11
+
+===== aqi_hanoi.collectors.collect_waqi_feed =====
+Đang kiểm tra tối đa 2 trạm WAQI trong khu vực Hà Nội để tìm 10 trạm có AQI hợp lệ.
+Trạm 1583: bỏ qua AQI không hợp lệ hoặc đã cũ (330.2 phút).
+Trạm 8688: AQI mới 136.0 (90.2 phút).
+Cảnh báo: chỉ tìm được 1/10 trạm có AQI hợp lệ và mới; nguồn WAQI hiện không cung cấp đủ.
+Da ghi 1 tram luc 2026-10-26 22:30 (1 tram co AQI)
+
+===== aqi_hanoi.pipeline.etl_feed =====
+Tổng số lượt thu thập: 126 | số trạm: 8
+Lượt thu thập thuộc khu vực Hà Nội: 120 | số trạm: 5
+
+===== TỶ LỆ LƯỢT ĐỌC DÙNG ĐƯỢC THEO TRẠM =====
+                                       station_name  so_luot  co_aqi  so_moi  dung_duoc  ty_le_dung_duoc
+station_uid                                                                                             
+1583                        Hanoi, Vietnam (Hà Nội)       23      23       2          2             0.09
+8641         Hanoi US Embassy, Vietnam (Đại sứ quán       22       0      22          0             0.00
+8688         United Nations International School of       31      31      31         31             1.00
+13026                  Hà Nội/Chi cục BVMT, Vietnam       22      22       0          0             0.00
+13251        Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm,       22      22       0          0             0.00
+
+Số dòng (trạm, giờ) sau khi gom: 9
+Số giờ có số liệu của từng trạm:
+station_uid
+1583    1
+8688    8
+Khoảng thời gian: 2026-10-25 15:00:00 -> 2026-10-26 21:00:00
+
+Đã lưu clean/station_feed_hourly.csv
+
+===== aqi_hanoi.pipeline.etl =====
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+Model hourly: (24720, 16) | 2024-01-01 00:00:00 -> 2026-10-26 23:00:00
+Station hourly: (45, 18) | số trạm: 4
+Số giờ trùng: 23 | tương quan: 0.335
+
+===== aqi_hanoi.collectors.collect_optional_sources =====
+
+===== aqi_hanoi.collectors.collect_noaa_weather =====
+NOAA METAR VVNB: collected successfully.
+
+===== aqi_hanoi.collectors.collect_hanoi_portal =====
+Hanoi monitoring portal: collected successfully.
+
+===== aqi_hanoi.collectors.collect_sensorcommunity =====
+Sensor.Community: collected successfully.
+
+===== aqi_hanoi.collectors.collect_openaq =====
+OpenAQ: collected successfully.
+Optional data sources finished: 4 succeeded, 0 failed, 0 skipped.
+
+===== aqi_hanoi.pipeline.data_quality =====
+                       source        entity  rows  stations         latest_data age_hours  duplicate_keys  missing_pct status                                                detail
+       raw/aq_model_hanoi.csv           all 24720         0 2026-10-26 23:00:00     -0.46               0         0.00     OK                                                 Fresh
+        raw/weather_hanoi.csv           all 24720         0 2026-10-26 23:00:00     -0.46               0         0.00     OK                                                 Fresh
+            raw/waqi_feed.csv           all   120         5 2026-10-26 21:00:00      1.54               0         6.18     OK                                                 Fresh
+            raw/waqi_feed.csv  station:1583    23         1 2026-10-25 15:00:00     31.54               0         0.00   WARN No usable AQI observation within the freshness window
+            raw/waqi_feed.csv  station:8641    22         1                 NaT      <NA>               0        21.05   WARN No usable AQI observation within the freshness window
+            raw/waqi_feed.csv  station:8688    31         1 2026-10-26 21:00:00      1.54               0         5.26     OK                                                 Fresh
+            raw/waqi_feed.csv station:13026    22         1                 NaT      <NA>               0         0.00   WARN No usable AQI observation within the freshness window
+            raw/waqi_feed.csv station:13251    22         1                 NaT      <NA>               0         5.26   WARN No usable AQI observation within the freshness window
+  clean/fact_model_hourly.csv           all 24720         0 2026-10-26 23:00:00     -0.46               0         0.00     OK                                                 Fresh
+clean/fact_station_hourly.csv           all    45         4 2026-10-25 23:00:00     23.54               0         0.00     OK                                                 Fresh
+clean/station_feed_hourly.csv           all     9         2 2026-10-26 21:00:00      1.54               0        11.11     OK                                                 Fresh
+  raw/openaq_measurements.csv           all    33         5 2026-10-26 22:20:00       0.2               0         7.23     OK                                                 Fresh
+    raw/hanoi_portal_pm25.csv           all 19198         4 2026-10-26 22:30:00      0.04               0         0.00     OK                                                 Fresh
+ raw/sensorcommunity_pm25.csv           all    15         1 2026-10-26 22:29:40      0.04               0         0.00     OK                                                 Fresh
+      raw/noaa_vvnb_metar.csv           all    94         1 2026-10-26 22:00:00      0.54               0         0.15     OK                                                 Fresh
+
+Đã lưu báo cáo chất lượng dữ liệu: figures\data_quality_report.csv
+Cảnh báo: hãy xem các dòng WARN trước khi diễn giải kết quả.
+
+===== aqi_hanoi.alerts.generate_alerts =====
+       generated_at         source_time         target_time  horizon_hours status  probability_aqi_above_150  probability_threshold               model  validation_f1  source_age_hours                                       detail
+2026-10-26T22:32:19 2026-10-26 22:00:00 2026-10-27 04:00:00              6 NORMAL                     0.0742                    0.6       Random Forest         0.9120              0.54 AQI > 150 risk is below validation threshold
+2026-10-26T22:32:19 2026-10-26 22:00:00 2026-10-27 22:00:00             24 NORMAL                     0.3969                    0.6 Logistic Regression         0.7347              0.54 AQI > 150 risk is below validation threshold
+
+Đã lưu cảnh báo cục bộ: figures\local_alerts.csv
+
+===== aqi_hanoi.pipeline.forecast_monitoring =====
+Đã lưu 2 dự báo mới; 3 dự báo đã đối chiếu CAMS, 3 đang chờ. Tệp: figures\forecast_history.csv
+
+===== aqi_hanoi.alerts.notify_alerts =====
+Kết quả thông báo Windows: no_alert
+
+===== aqi_hanoi.analysis.compare_stations =====
+Nguồn CAMS: raw\aq_model_hanoi.csv
+Nguồn dữ liệu trạm: clean\station_feed_hourly.csv (giờ đo thật)
+CAMS có dữ liệu đến: 2026-10-26 23:00:00
+== DỮ LIỆU TRẠM WAQI ==
+9 dòng | 2 trạm | 2026-10-25 15:00:00 -> 2026-10-26 21:00:00
+ station_uid                           station_name  so_gio                  tu                 den  aqi_tb
+        1583                Hanoi, Vietnam (Hà Nội)       1 2026-10-25 15:00:00 2026-10-25 15:00:00    16.0
+        8688 United Nations International School of       8 2026-10-25 16:00:00 2026-10-26 21:00:00   133.8
+
+Số cặp (trạm, giờ) trùng với CAMS: 9 | số giờ khác nhau: 9
+Chưa đủ 24 giờ trùng; tạm bỏ qua đánh giá thống kê. Tiếp tục thu thập, pipeline không bị xem là lỗi.
+Hourly pipeline completed successfully.
+
+===== aqi_hanoi.collectors.collect_aq_model =====
+Đã cập nhật CAMS: 24720 giờ | tải từ 2026-10-24 | đến 2026-10-26 23:00:00
+
+===== aqi_hanoi.collectors.collect_weather =====
+Đã cập nhật thời tiết: 24720 giờ | archive từ 2026-10-19 | đến 2026-10-26 23:00:00
+
+===== aqi_hanoi.collectors.collect_waqi =====
+Đã ghi 5 trạm lúc 2026-10-26 23:00:10
+
+===== aqi_hanoi.collectors.collect_waqi_feed =====
+Đang kiểm tra tối đa 2 trạm WAQI trong khu vực Hà Nội để tìm 10 trạm có AQI hợp lệ.
+Trạm 1583: bỏ qua AQI không hợp lệ hoặc đã cũ (360.2 phút).
+Trạm 8688: AQI mới 136.0 (60.2 phút).
+Cảnh báo: chỉ tìm được 1/10 trạm có AQI hợp lệ và mới; nguồn WAQI hiện không cung cấp đủ.
+Da ghi 1 tram luc 2026-10-26 23:00 (1 tram co AQI)
+
+===== aqi_hanoi.pipeline.etl_feed =====
+Tổng số lượt thu thập: 127 | số trạm: 8
+Lượt thu thập thuộc khu vực Hà Nội: 121 | số trạm: 5
+
+===== TỶ LỆ LƯỢT ĐỌC DÙNG ĐƯỢC THEO TRẠM =====
+                                       station_name  so_luot  co_aqi  so_moi  dung_duoc  ty_le_dung_duoc
+station_uid                                                                                             
+1583                        Hanoi, Vietnam (Hà Nội)       23      23       2          2             0.09
+8641         Hanoi US Embassy, Vietnam (Đại sứ quán       22       0      22          0             0.00
+8688         United Nations International School of       32      32      32         32             1.00
+13026                  Hà Nội/Chi cục BVMT, Vietnam       22      22       0          0             0.00
+13251        Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm,       22      22       0          0             0.00
+
+Số dòng (trạm, giờ) sau khi gom: 10
+Số giờ có số liệu của từng trạm:
+station_uid
+1583    1
+8688    9
+Khoảng thời gian: 2026-10-25 15:00:00 -> 2026-10-26 22:00:00
+
+Đã lưu clean/station_feed_hourly.csv
+
+===== aqi_hanoi.pipeline.etl =====
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+Model hourly: (24720, 16) | 2024-01-01 00:00:00 -> 2026-10-26 23:00:00
+Station hourly: (45, 18) | số trạm: 4
+Số giờ trùng: 23 | tương quan: 0.335
+
+===== aqi_hanoi.collectors.collect_optional_sources =====
+
+===== aqi_hanoi.collectors.collect_noaa_weather =====
+NOAA METAR VVNB: collected successfully.
+
+===== aqi_hanoi.collectors.collect_hanoi_portal =====
+Hanoi monitoring portal: collected successfully.
+
+===== aqi_hanoi.collectors.collect_sensorcommunity =====
+Sensor.Community: collected successfully.
+
+===== aqi_hanoi.collectors.collect_openaq =====
+OpenAQ: collected successfully.
+Optional data sources finished: 4 succeeded, 0 failed, 0 skipped.
+
+===== aqi_hanoi.pipeline.data_quality =====
+                       source        entity  rows  stations         latest_data age_hours  duplicate_keys  missing_pct status                                                detail
+       raw/aq_model_hanoi.csv           all 24720         0 2026-10-26 23:00:00      0.05               0         0.00     OK                                                 Fresh
+        raw/weather_hanoi.csv           all 24720         0 2026-10-26 23:00:00      0.05               0         0.00     OK                                                 Fresh
+            raw/waqi_feed.csv           all   121         5 2026-10-26 22:00:00      1.05               0         6.18     OK                                                 Fresh
+            raw/waqi_feed.csv  station:1583    23         1 2026-10-25 15:00:00     32.05               0         0.00   WARN No usable AQI observation within the freshness window
+            raw/waqi_feed.csv  station:8641    22         1                 NaT      <NA>               0        21.05   WARN No usable AQI observation within the freshness window
+            raw/waqi_feed.csv  station:8688    32         1 2026-10-26 22:00:00      1.05               0         5.26     OK                                                 Fresh
+            raw/waqi_feed.csv station:13026    22         1                 NaT      <NA>               0         0.00   WARN No usable AQI observation within the freshness window
+            raw/waqi_feed.csv station:13251    22         1                 NaT      <NA>               0         5.26   WARN No usable AQI observation within the freshness window
+  clean/fact_model_hourly.csv           all 24720         0 2026-10-26 23:00:00      0.05               0         0.00     OK                                                 Fresh
+clean/fact_station_hourly.csv           all    45         4 2026-10-25 23:00:00     24.05               0         0.00     OK                                                 Fresh
+clean/station_feed_hourly.csv           all    10         2 2026-10-26 22:00:00      1.05               0        11.25     OK                                                 Fresh
+  raw/openaq_measurements.csv           all    37         5 2026-10-26 22:50:00      0.21               0         7.28     OK                                                 Fresh
+    raw/hanoi_portal_pm25.csv           all 19210         4 2026-10-26 23:00:00      0.05               0         0.00     OK                                                 Fresh
+ raw/sensorcommunity_pm25.csv           all    17         1 2026-10-26 23:00:09      0.04               0         0.00     OK                                                 Fresh
+      raw/noaa_vvnb_metar.csv           all    95         1 2026-10-26 22:30:00      0.55               0         0.15     OK                                                 Fresh
+
+Đã lưu báo cáo chất lượng dữ liệu: figures\data_quality_report.csv
+Cảnh báo: hãy xem các dòng WARN trước khi diễn giải kết quả.
+
+===== aqi_hanoi.alerts.generate_alerts =====
+       generated_at         source_time         target_time  horizon_hours status  probability_aqi_above_150  probability_threshold               model  validation_f1  source_age_hours                                       detail
+2026-10-26T23:02:47 2026-10-26 23:00:00 2026-10-27 05:00:00              6 NORMAL                     0.0685                    0.6       Random Forest         0.9120              0.05 AQI > 150 risk is below validation threshold
+2026-10-26T23:02:47 2026-10-26 23:00:00 2026-10-27 23:00:00             24 NORMAL                     0.4783                    0.6 Logistic Regression         0.7347              0.05 AQI > 150 risk is below validation threshold
+
+Đã lưu cảnh báo cục bộ: figures\local_alerts.csv
+
+===== aqi_hanoi.pipeline.forecast_monitoring =====
+Đã lưu 2 dự báo mới; 4 dự báo đã đối chiếu CAMS, 4 đang chờ. Tệp: figures\forecast_history.csv
+
+===== aqi_hanoi.alerts.notify_alerts =====
+Kết quả thông báo Windows: no_alert
+
+===== aqi_hanoi.analysis.compare_stations =====
+Nguồn CAMS: raw\aq_model_hanoi.csv
+Nguồn dữ liệu trạm: clean\station_feed_hourly.csv (giờ đo thật)
+CAMS có dữ liệu đến: 2026-10-26 23:00:00
+== DỮ LIỆU TRẠM WAQI ==
+10 dòng | 2 trạm | 2026-10-25 15:00:00 -> 2026-10-26 22:00:00
+ station_uid                           station_name  so_gio                  tu                 den  aqi_tb
+        1583                Hanoi, Vietnam (Hà Nội)       1 2026-10-25 15:00:00 2026-10-25 15:00:00    16.0
+        8688 United Nations International School of       9 2026-10-25 16:00:00 2026-10-26 22:00:00   134.0
+
+Số cặp (trạm, giờ) trùng với CAMS: 10 | số giờ khác nhau: 10
+Chưa đủ 24 giờ trùng; tạm bỏ qua đánh giá thống kê. Tiếp tục thu thập, pipeline không bị xem là lỗi.
+Hourly pipeline completed successfully.
+
+===== aqi_hanoi.collectors.collect_aq_model =====
+Đã cập nhật CAMS: 24720 giờ | tải từ 2026-10-24 | đến 2026-10-26 23:00:00
+
+===== aqi_hanoi.collectors.collect_weather =====
+Đã cập nhật thời tiết: 24720 giờ | archive từ 2026-10-19 | đến 2026-10-26 23:00:00
+
+===== aqi_hanoi.collectors.collect_waqi =====
+Đã ghi 5 trạm lúc 2026-10-26 23:30:08
+
+===== aqi_hanoi.collectors.collect_waqi_feed =====
+Đang kiểm tra tối đa 2 trạm WAQI trong khu vực Hà Nội để tìm 10 trạm có AQI hợp lệ.
+Trạm 1583: bỏ qua AQI không hợp lệ hoặc đã cũ (390.2 phút).
+Trạm 8688: AQI mới 136.0 (90.2 phút).
+Cảnh báo: chỉ tìm được 1/10 trạm có AQI hợp lệ và mới; nguồn WAQI hiện không cung cấp đủ.
+Da ghi 1 tram luc 2026-10-26 23:30 (1 tram co AQI)
+
+===== aqi_hanoi.pipeline.etl_feed =====
+Tổng số lượt thu thập: 128 | số trạm: 8
+Lượt thu thập thuộc khu vực Hà Nội: 122 | số trạm: 5
+
+===== TỶ LỆ LƯỢT ĐỌC DÙNG ĐƯỢC THEO TRẠM =====
+                                       station_name  so_luot  co_aqi  so_moi  dung_duoc  ty_le_dung_duoc
+station_uid                                                                                             
+1583                        Hanoi, Vietnam (Hà Nội)       23      23       2          2             0.09
+8641         Hanoi US Embassy, Vietnam (Đại sứ quán       22       0      22          0             0.00
+8688         United Nations International School of       33      33      33         33             1.00
+13026                  Hà Nội/Chi cục BVMT, Vietnam       22      22       0          0             0.00
+13251        Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm,       22      22       0          0             0.00
+
+Số dòng (trạm, giờ) sau khi gom: 10
+Số giờ có số liệu của từng trạm:
+station_uid
+1583    1
+8688    9
+Khoảng thời gian: 2026-10-25 15:00:00 -> 2026-10-26 22:00:00
+
+Đã lưu clean/station_feed_hourly.csv
+
+===== aqi_hanoi.pipeline.etl =====
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+Model hourly: (24720, 16) | 2024-01-01 00:00:00 -> 2026-10-26 23:00:00
+Station hourly: (45, 18) | số trạm: 4
+Số giờ trùng: 23 | tương quan: 0.335
+
+===== aqi_hanoi.collectors.collect_optional_sources =====
+
+===== aqi_hanoi.collectors.collect_noaa_weather =====
+NOAA METAR VVNB: collected successfully.
+
+===== aqi_hanoi.collectors.collect_hanoi_portal =====
+Hanoi monitoring portal: collected successfully.
+
+===== aqi_hanoi.collectors.collect_sensorcommunity =====
+Sensor.Community: collected successfully.
+
+===== aqi_hanoi.collectors.collect_openaq =====
+^C
+===== aqi_hanoi.collectors.collect_aq_model =====
+Đã cập nhật CAMS: 24744 giờ | tải từ 2026-10-24 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_weather =====
+Đã cập nhật thời tiết: 24744 giờ | archive từ 2026-10-20 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_waqi =====
+Đã ghi 5 trạm lúc 2026-10-27 00:39:00
+
+===== aqi_hanoi.collectors.collect_waqi_feed =====
+Đang kiểm tra tối đa 2 trạm WAQI trong khu vực Hà Nội để tìm 10 trạm có AQI hợp lệ.
+Trạm 1583: bỏ qua AQI không hợp lệ hoặc đã cũ (459.0 phút).
+Trạm 8688: AQI mới 136.0 (159.0 phút).
+Cảnh báo: chỉ tìm được 1/10 trạm có AQI hợp lệ và mới; nguồn WAQI hiện không cung cấp đủ.
+Da ghi 1 tram luc 2026-10-27 00:39 (1 tram co AQI)
+
+===== aqi_hanoi.pipeline.etl_feed =====
+Tổng số lượt thu thập: 129 | số trạm: 8
+Lượt thu thập thuộc khu vực Hà Nội: 123 | số trạm: 5
+
+===== TỶ LỆ LƯỢT ĐỌC DÙNG ĐƯỢC THEO TRẠM =====
+                                       station_name  so_luot  co_aqi  so_moi  dung_duoc  ty_le_dung_duoc
+station_uid                                                                                             
+1583                        Hanoi, Vietnam (Hà Nội)       23      23       2          2             0.09
+8641         Hanoi US Embassy, Vietnam (Đại sứ quán       22       0      22          0             0.00
+8688         United Nations International School of       34      34      34         34             1.00
+13026                  Hà Nội/Chi cục BVMT, Vietnam       22      22       0          0             0.00
+13251        Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm,       22      22       0          0             0.00
+
+Số dòng (trạm, giờ) sau khi gom: 10
+Số giờ có số liệu của từng trạm:
+station_uid
+1583    1
+8688    9
+Khoảng thời gian: 2026-10-25 15:00:00 -> 2026-10-26 22:00:00
+
+Đã lưu clean/station_feed_hourly.csv
+
+===== aqi_hanoi.pipeline.etl =====
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+Model hourly: (24744, 16) | 2024-01-01 00:00:00 -> 2026-10-27 23:00:00
+Station hourly: (45, 18) | số trạm: 4
+Số giờ trùng: 23 | tương quan: 0.335
+
+===== aqi_hanoi.collectors.collect_optional_sources =====
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_optional_sources.py", line 145, in <module>
+    main()
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_optional_sources.py", line 141, in main
+    collect_optional_sources()
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_optional_sources.py", line 86, in collect_optional_sources
+    _write_status(status, status_path)
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_optional_sources.py", line 32, in _write_status
+    temporary.replace(status_path)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\pathlib.py", line 1188, in replace
+    os.replace(self, target)
+PermissionError: [WinError 5] Access is denied: 'G:\\aqi_hanoi\\figures\\source_collection_status.json.tmp' -> 'G:\\aqi_hanoi\\figures\\source_collection_status.json'
+
+===== aqi_hanoi.collectors.collect_aq_model =====
+Đã cập nhật CAMS: 24744 giờ | tải từ 2026-10-25 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_weather =====
+Đã cập nhật thời tiết: 24744 giờ | archive từ 2026-10-20 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_waqi =====
+Đã ghi 5 trạm lúc 2026-10-27 03:44:02
+
+===== aqi_hanoi.collectors.collect_waqi_feed =====
+Đang kiểm tra tối đa 1 trạm WAQI trong khu vực Hà Nội để tìm 10 trạm có AQI hợp lệ.
+Trạm 8688: AQI mới 160.0 (104.1 phút).
+Cảnh báo: chỉ tìm được 1/10 trạm có AQI hợp lệ và mới; nguồn WAQI hiện không cung cấp đủ.
+Da ghi 1 tram luc 2026-10-27 03:44 (1 tram co AQI)
+
+===== aqi_hanoi.pipeline.etl_feed =====
+Tổng số lượt thu thập: 130 | số trạm: 8
+Lượt thu thập thuộc khu vực Hà Nội: 124 | số trạm: 5
+
+===== TỶ LỆ LƯỢT ĐỌC DÙNG ĐƯỢC THEO TRẠM =====
+                                       station_name  so_luot  co_aqi  so_moi  dung_duoc  ty_le_dung_duoc
+station_uid                                                                                             
+1583                        Hanoi, Vietnam (Hà Nội)       23      23       2          2             0.09
+8641         Hanoi US Embassy, Vietnam (Đại sứ quán       22       0      22          0             0.00
+8688         United Nations International School of       35      35      35         35             1.00
+13026                  Hà Nội/Chi cục BVMT, Vietnam       22      22       0          0             0.00
+13251        Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm,       22      22       0          0             0.00
+
+Số dòng (trạm, giờ) sau khi gom: 11
+Số giờ có số liệu của từng trạm:
+station_uid
+1583     1
+8688    10
+Khoảng thời gian: 2026-10-25 15:00:00 -> 2026-10-27 02:00:00
+
+Đã lưu clean/station_feed_hourly.csv
+
+===== aqi_hanoi.pipeline.etl =====
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+Model hourly: (24744, 16) | 2024-01-01 00:00:00 -> 2026-10-27 23:00:00
+Station hourly: (45, 18) | số trạm: 4
+Số giờ trùng: 23 | tương quan: 0.335
+
+===== aqi_hanoi.collectors.collect_optional_sources =====
+
+===== aqi_hanoi.collectors.collect_noaa_weather =====
+NOAA METAR VVNB: collected successfully.
+
+===== aqi_hanoi.collectors.collect_hanoi_portal =====
+Hanoi monitoring portal: collected successfully.
+
+===== aqi_hanoi.collectors.collect_sensorcommunity =====
+Sensor.Community: collected successfully.
+
+===== aqi_hanoi.collectors.collect_openaq =====
+OpenAQ: collected successfully.
+Optional data sources finished: 4 succeeded, 0 failed, 0 skipped.
+
+===== aqi_hanoi.pipeline.data_quality =====
+                       source        entity  rows  stations         latest_data age_hours  duplicate_keys  missing_pct status                                                detail
+       raw/aq_model_hanoi.csv           all 24744         0 2026-10-27 23:00:00    -19.25               0         0.00     OK                                                 Fresh
+        raw/weather_hanoi.csv           all 24744         0 2026-10-27 23:00:00    -19.25               0         0.00     OK                                                 Fresh
+            raw/waqi_feed.csv           all   124         5 2026-10-27 02:00:00      1.75               0         6.15     OK                                                 Fresh
+            raw/waqi_feed.csv  station:1583    23         1 2026-10-25 15:00:00     36.75               0         0.00   WARN No usable AQI observation within the freshness window
+            raw/waqi_feed.csv  station:8641    22         1                 NaT      <NA>               0        21.05   WARN No usable AQI observation within the freshness window
+            raw/waqi_feed.csv  station:8688    35         1 2026-10-27 02:00:00      1.75               0         5.26     OK                                                 Fresh
+            raw/waqi_feed.csv station:13026    22         1                 NaT      <NA>               0         0.00   WARN No usable AQI observation within the freshness window
+            raw/waqi_feed.csv station:13251    22         1                 NaT      <NA>               0         5.26   WARN No usable AQI observation within the freshness window
+  clean/fact_model_hourly.csv           all 24744         0 2026-10-27 23:00:00    -19.25               0         0.00     OK                                                 Fresh
+clean/fact_station_hourly.csv           all    45         4 2026-10-25 23:00:00     28.75               0         0.00     OK                                                 Fresh
+clean/station_feed_hourly.csv           all    11         2 2026-10-27 02:00:00      1.75               0        11.36     OK                                                 Fresh
+  raw/openaq_measurements.csv           all    42         5 2026-10-27 03:20:00      0.42               0         7.14     OK                                                 Fresh
+    raw/hanoi_portal_pm25.csv           all 19322         4 2026-10-27 03:40:00      0.08               0         0.00     OK                                                 Fresh
+ raw/sensorcommunity_pm25.csv           all    21         1 2026-10-27 03:43:49      0.02               0         0.00     OK                                                 Fresh
+      raw/noaa_vvnb_metar.csv           all   105         1 2026-10-27 03:30:00      0.25               0         0.34     OK                                                 Fresh
+
+Đã lưu báo cáo chất lượng dữ liệu: figures\data_quality_report.csv
+Cảnh báo: hãy xem các dòng WARN trước khi diễn giải kết quả.
+
+===== aqi_hanoi.alerts.generate_alerts =====
+       generated_at         source_time         target_time  horizon_hours status  probability_aqi_above_150  probability_threshold               model  validation_f1  source_age_hours                                       detail
+2026-10-27T03:45:01 2026-10-27 03:00:00 2026-10-27 09:00:00              6 NORMAL                     0.0875                    0.6       Random Forest         0.9120              0.75 AQI > 150 risk is below validation threshold
+2026-10-27T03:45:01 2026-10-27 03:00:00 2026-10-28 03:00:00             24 NORMAL                     0.4089                    0.6 Logistic Regression         0.7347              0.75 AQI > 150 risk is below validation threshold
+
+Đã lưu cảnh báo cục bộ: figures\local_alerts.csv
+
+===== aqi_hanoi.pipeline.forecast_monitoring =====
+Đã lưu 2 dự báo mới; 4 dự báo đã đối chiếu CAMS, 6 đang chờ. Tệp: figures\forecast_history.csv
+
+===== aqi_hanoi.alerts.notify_alerts =====
+Kết quả thông báo Windows: no_alert
+
+===== aqi_hanoi.analysis.compare_stations =====
+Nguồn CAMS: raw\aq_model_hanoi.csv
+Nguồn dữ liệu trạm: clean\station_feed_hourly.csv (giờ đo thật)
+CAMS có dữ liệu đến: 2026-10-27 23:00:00
+== DỮ LIỆU TRẠM WAQI ==
+11 dòng | 2 trạm | 2026-10-25 15:00:00 -> 2026-10-27 02:00:00
+ station_uid                           station_name  so_gio                  tu                 den  aqi_tb
+        1583                Hanoi, Vietnam (Hà Nội)       1 2026-10-25 15:00:00 2026-10-25 15:00:00    16.0
+        8688 United Nations International School of      10 2026-10-25 16:00:00 2026-10-27 02:00:00   136.6
+
+Số cặp (trạm, giờ) trùng với CAMS: 11 | số giờ khác nhau: 11
+Chưa đủ 24 giờ trùng; tạm bỏ qua đánh giá thống kê. Tiếp tục thu thập, pipeline không bị xem là lỗi.
+Hourly pipeline completed successfully.
+
+===== aqi_hanoi.collectors.collect_aq_model =====
+Đã cập nhật CAMS: 24744 giờ | tải từ 2026-10-25 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_weather =====
+Đã cập nhật thời tiết: 24744 giờ | archive từ 2026-10-20 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_waqi =====
+Đã ghi 5 trạm lúc 2026-10-27 09:53:28
+
+===== aqi_hanoi.collectors.collect_waqi_feed =====
+Đang kiểm tra tối đa 1 trạm WAQI trong khu vực Hà Nội để tìm 10 trạm có AQI hợp lệ.
+Trạm 8688: AQI mới 182.0 (113.5 phút).
+Cảnh báo: chỉ tìm được 1/10 trạm có AQI hợp lệ và mới; nguồn WAQI hiện không cung cấp đủ.
+Da ghi 1 tram luc 2026-10-27 09:53 (1 tram co AQI)
+
+===== aqi_hanoi.pipeline.etl_feed =====
+Tổng số lượt thu thập: 131 | số trạm: 8
+Lượt thu thập thuộc khu vực Hà Nội: 125 | số trạm: 5
+
+===== TỶ LỆ LƯỢT ĐỌC DÙNG ĐƯỢC THEO TRẠM =====
+                                       station_name  so_luot  co_aqi  so_moi  dung_duoc  ty_le_dung_duoc
+station_uid                                                                                             
+1583                        Hanoi, Vietnam (Hà Nội)       23      23       2          2             0.09
+8641         Hanoi US Embassy, Vietnam (Đại sứ quán       22       0      22          0             0.00
+8688         United Nations International School of       36      36      36         36             1.00
+13026                  Hà Nội/Chi cục BVMT, Vietnam       22      22       0          0             0.00
+13251        Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm,       22      22       0          0             0.00
+
+Số dòng (trạm, giờ) sau khi gom: 12
+Số giờ có số liệu của từng trạm:
+station_uid
+1583     1
+8688    11
+Khoảng thời gian: 2026-10-25 15:00:00 -> 2026-10-27 08:00:00
+
+Đã lưu clean/station_feed_hourly.csv
+
+===== aqi_hanoi.pipeline.etl =====
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+Model hourly: (24744, 16) | 2024-01-01 00:00:00 -> 2026-10-27 23:00:00
+Station hourly: (45, 18) | số trạm: 4
+Số giờ trùng: 23 | tương quan: 0.335
+
+===== aqi_hanoi.collectors.collect_optional_sources =====
+
+===== aqi_hanoi.collectors.collect_noaa_weather =====
+NOAA METAR VVNB: collected successfully.
+
+===== aqi_hanoi.collectors.collect_hanoi_portal =====
+^C
+===== aqi_hanoi.collectors.collect_aq_model =====
+^C
+===== aqi_hanoi.collectors.collect_aq_model =====
+Đã cập nhật CAMS: 24744 giờ | tải từ 2026-10-25 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_weather =====
+Đã cập nhật thời tiết: 24744 giờ | archive từ 2026-10-20 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_waqi =====
+Đã ghi 5 trạm lúc 2026-10-27 10:30:13
+
+===== aqi_hanoi.collectors.collect_waqi_feed =====
+Đang kiểm tra tối đa 1 trạm WAQI trong khu vực Hà Nội để tìm 10 trạm có AQI hợp lệ.
+Trạm 8688: AQI mới 163.0 (90.2 phút).
+Cảnh báo: chỉ tìm được 1/10 trạm có AQI hợp lệ và mới; nguồn WAQI hiện không cung cấp đủ.
+Da ghi 1 tram luc 2026-10-27 10:30 (1 tram co AQI)
+
+===== aqi_hanoi.pipeline.etl_feed =====
+Tổng số lượt thu thập: 132 | số trạm: 8
+Lượt thu thập thuộc khu vực Hà Nội: 126 | số trạm: 5
+
+===== TỶ LỆ LƯỢT ĐỌC DÙNG ĐƯỢC THEO TRẠM =====
+                                       station_name  so_luot  co_aqi  so_moi  dung_duoc  ty_le_dung_duoc
+station_uid                                                                                             
+1583                        Hanoi, Vietnam (Hà Nội)       23      23       2          2             0.09
+8641         Hanoi US Embassy, Vietnam (Đại sứ quán       22       0      22          0             0.00
+8688         United Nations International School of       37      37      37         37             1.00
+13026                  Hà Nội/Chi cục BVMT, Vietnam       22      22       0          0             0.00
+13251        Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm,       22      22       0          0             0.00
+
+Số dòng (trạm, giờ) sau khi gom: 13
+Số giờ có số liệu của từng trạm:
+station_uid
+1583     1
+8688    12
+Khoảng thời gian: 2026-10-25 15:00:00 -> 2026-10-27 09:00:00
+
+Đã lưu clean/station_feed_hourly.csv
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\aqi_hanoi\aqi_hanoi\pipeline\scheduled_pipeline.py", line 140, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "G:\aqi_hanoi\aqi_hanoi\pipeline\scheduled_pipeline.py", line 136, in main
+    return run_pipeline()
+           ^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\aqi_hanoi\pipeline\scheduled_pipeline.py", line 98, in run_pipeline
+    _write_status(status_path, status)
+  File "G:\aqi_hanoi\aqi_hanoi\pipeline\scheduled_pipeline.py", line 40, in _write_status
+    temporary.replace(path)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\pathlib.py", line 1188, in replace
+    os.replace(self, target)
+PermissionError: [WinError 5] Access is denied: 'G:\\aqi_hanoi\\figures\\pipeline_status.json.tmp' -> 'G:\\aqi_hanoi\\figures\\pipeline_status.json'
+
+===== aqi_hanoi.collectors.collect_aq_model =====
+Đã cập nhật CAMS: 24744 giờ | tải từ 2026-10-25 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_weather =====
+Đã cập nhật thời tiết: 24744 giờ | archive từ 2026-10-20 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_waqi =====
+Đã ghi 5 trạm lúc 2026-10-27 11:00:09
+
+===== aqi_hanoi.collectors.collect_waqi_feed =====
+Đang kiểm tra tối đa 1 trạm WAQI trong khu vực Hà Nội để tìm 10 trạm có AQI hợp lệ.
+Trạm 8688: AQI mới 158.0 (60.2 phút).
+Cảnh báo: chỉ tìm được 1/10 trạm có AQI hợp lệ và mới; nguồn WAQI hiện không cung cấp đủ.
+Da ghi 1 tram luc 2026-10-27 11:00 (1 tram co AQI)
+
+===== aqi_hanoi.pipeline.etl_feed =====
+Tổng số lượt thu thập: 133 | số trạm: 8
+Lượt thu thập thuộc khu vực Hà Nội: 127 | số trạm: 5
+
+===== TỶ LỆ LƯỢT ĐỌC DÙNG ĐƯỢC THEO TRẠM =====
+                                       station_name  so_luot  co_aqi  so_moi  dung_duoc  ty_le_dung_duoc
+station_uid                                                                                             
+1583                        Hanoi, Vietnam (Hà Nội)       23      23       2          2             0.09
+8641         Hanoi US Embassy, Vietnam (Đại sứ quán       22       0      22          0             0.00
+8688         United Nations International School of       38      38      38         38             1.00
+13026                  Hà Nội/Chi cục BVMT, Vietnam       22      22       0          0             0.00
+13251        Hà Nội/UBND P. Minh Khai, Bắc Từ Liêm,       22      22       0          0             0.00
+
+Số dòng (trạm, giờ) sau khi gom: 14
+Số giờ có số liệu của từng trạm:
+station_uid
+1583     1
+8688    13
+Khoảng thời gian: 2026-10-25 15:00:00 -> 2026-10-27 10:00:00
+
+Đã lưu clean/station_feed_hourly.csv
+
+===== aqi_hanoi.pipeline.etl =====
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+G:\aqi_hanoi\aqi_hanoi\pipeline\etl.py:44: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  d["dow"]   = d["time"].dt.dayofweek          # 0 = Thứ Hai
+Model hourly: (24744, 16) | 2024-01-01 00:00:00 -> 2026-10-27 23:00:00
+Station hourly: (45, 18) | số trạm: 4
+Số giờ trùng: 23 | tương quan: 0.335
+
+===== aqi_hanoi.collectors.collect_optional_sources =====
+
+===== aqi_hanoi.collectors.collect_noaa_weather =====
+NOAA METAR VVNB: collected successfully.
+
+===== aqi_hanoi.collectors.collect_hanoi_portal =====
+Hanoi monitoring portal: collected successfully.
+
+===== aqi_hanoi.collectors.collect_sensorcommunity =====
+Sensor.Community: collected successfully.
+
+===== aqi_hanoi.collectors.collect_openaq =====
+OpenAQ: collected successfully.
+Optional data sources finished: 4 succeeded, 0 failed, 0 skipped.
+
+===== aqi_hanoi.pipeline.data_quality =====
+                       source        entity  rows  stations         latest_data age_hours  duplicate_keys  missing_pct status                                                detail
+       raw/aq_model_hanoi.csv           all 24744         0 2026-10-27 23:00:00    -11.96               0         0.00     OK                                                 Fresh
+        raw/weather_hanoi.csv           all 24744         0 2026-10-27 23:00:00    -11.96               0         0.00     OK                                                 Fresh
+            raw/waqi_feed.csv           all   127         5 2026-10-27 10:00:00      1.04               0         6.13     OK                                                 Fresh
+            raw/waqi_feed.csv  station:1583    23         1 2026-10-25 15:00:00     44.04               0         0.00   WARN No usable AQI observation within the freshness window
+            raw/waqi_feed.csv  station:8641    22         1                 NaT      <NA>               0        21.05   WARN No usable AQI observation within the freshness window
+            raw/waqi_feed.csv  station:8688    38         1 2026-10-27 10:00:00      1.04               0         5.26     OK                                                 Fresh
+            raw/waqi_feed.csv station:13026    22         1                 NaT      <NA>               0         0.00   WARN No usable AQI observation within the freshness window
+            raw/waqi_feed.csv station:13251    22         1                 NaT      <NA>               0         5.26   WARN No usable AQI observation within the freshness window
+  clean/fact_model_hourly.csv           all 24744         0 2026-10-27 23:00:00    -11.96               0         0.00     OK                                                 Fresh
+clean/fact_station_hourly.csv           all    45         4 2026-10-25 23:00:00     36.04               0         0.00     OK                                                 Fresh
+clean/station_feed_hourly.csv           all    14         2 2026-10-27 10:00:00      1.04               0        11.61     OK                                                 Fresh
+  raw/openaq_measurements.csv           all    47         5 2026-10-27 10:50:00      0.21               0         7.04     OK                                                 Fresh
+    raw/hanoi_portal_pm25.csv           all 19498         4 2026-10-27 11:00:00      0.04               0         0.00     OK                                                 Fresh
+ raw/sensorcommunity_pm25.csv           all    23         1 2026-10-27 11:00:29      0.04               0         0.00     OK                                                 Fresh
+      raw/noaa_vvnb_metar.csv           all   119         1 2026-10-27 10:30:00      0.54               0         0.42     OK                                                 Fresh
+
+Đã lưu báo cáo chất lượng dữ liệu: figures\data_quality_report.csv
+Cảnh báo: hãy xem các dòng WARN trước khi diễn giải kết quả.
+
+===== aqi_hanoi.alerts.generate_alerts =====
+       generated_at         source_time         target_time  horizon_hours status  probability_aqi_above_150  probability_threshold               model  validation_f1  source_age_hours                                       detail
+2026-10-27T11:02:53 2026-10-27 11:00:00 2026-10-27 17:00:00              6 NORMAL                     0.3868                    0.6       Random Forest         0.9120              0.05 AQI > 150 risk is below validation threshold
+2026-10-27T11:02:53 2026-10-27 11:00:00 2026-10-28 11:00:00             24 NORMAL                     0.4186                    0.6 Logistic Regression         0.7347              0.05 AQI > 150 risk is below validation threshold
+
+Đã lưu cảnh báo cục bộ: figures\local_alerts.csv
+
+===== aqi_hanoi.pipeline.forecast_monitoring =====
+Đã lưu 2 dự báo mới; 7 dự báo đã đối chiếu CAMS, 5 đang chờ. Tệp: figures\forecast_history.csv
+
+===== aqi_hanoi.alerts.notify_alerts =====
+Kết quả thông báo Windows: no_alert
+
+===== aqi_hanoi.analysis.compare_stations =====
+Nguồn CAMS: raw\aq_model_hanoi.csv
+Nguồn dữ liệu trạm: clean\station_feed_hourly.csv (giờ đo thật)
+CAMS có dữ liệu đến: 2026-10-27 23:00:00
+== DỮ LIỆU TRẠM WAQI ==
+14 dòng | 2 trạm | 2026-10-25 15:00:00 -> 2026-10-27 10:00:00
+ station_uid                           station_name  so_gio                  tu                 den  aqi_tb
+        1583                Hanoi, Vietnam (Hà Nội)       1 2026-10-25 15:00:00 2026-10-25 15:00:00    16.0
+        8688 United Nations International School of      13 2026-10-25 16:00:00 2026-10-27 10:00:00   143.8
+
+Số cặp (trạm, giờ) trùng với CAMS: 14 | số giờ khác nhau: 14
+Chưa đủ 24 giờ trùng; tạm bỏ qua đánh giá thống kê. Tiếp tục thu thập, pipeline không bị xem là lỗi.
+Hourly pipeline completed successfully.
+
+===== aqi_hanoi.collectors.collect_aq_model =====
+Đã cập nhật CAMS: 24744 giờ | tải từ 2026-10-25 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_weather =====
+^C
+===== aqi_hanoi.collectors.collect_aq_model =====
+Đã cập nhật CAMS: 24744 giờ | tải từ 2026-10-25 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_weather =====
+Đã cập nhật thời tiết: 24744 giờ | archive từ 2026-10-20 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_waqi =====
+Đã ghi 5 trạm lúc 2026-10-27 13:00:08
+
+===== aqi_hanoi.collectors.collect_waqi_feed =====
+^C
+===== aqi_hanoi.collectors.collect_aq_model =====
+^C
+===== aqi_hanoi.collectors.collect_aq_model =====
+Đã cập nhật CAMS: 24744 giờ | tải từ 2026-10-25 | đến 2026-10-27 23:00:00
+
+===== aqi_hanoi.collectors.collect_weather =====
+^C

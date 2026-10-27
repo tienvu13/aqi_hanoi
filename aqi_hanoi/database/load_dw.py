@@ -130,7 +130,7 @@ def load_data(connection):
 
 
 def main():
-    from db import engine
+    from aqi_hanoi.database.db import engine
 
     schema_path = PROJECT_DIR / "sql" / "schema.sql"
     with engine.begin() as connection:

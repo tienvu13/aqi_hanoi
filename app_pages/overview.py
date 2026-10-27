@@ -4,6 +4,8 @@ import streamlit as st
 from aqi_hanoi.analysis.aqi_trends import build_daily_aqi_summary, build_hourly_coverage_report
 from aqi_hanoi.dashboard.dashboard_common import (
     PROJECT_DIR,
+    build_pm25_wind_summary,
+    build_seasonal_hourly_pm25,
     current_hanoi_time,
     load_model,
     read_csv,
@@ -151,6 +153,53 @@ st.line_chart(
     y_label="AQI mô hình",
     alt="Diễn biến AQI mô hình theo giờ",
 )
+
+st.subheader("PM2.5 mô hình theo giờ trong 4 mùa")
+seasonal_pm25, seasonal_counts = build_seasonal_hourly_pm25(model)
+if seasonal_counts.sum() == 0:
+    st.info("Chưa có dữ liệu PM2.5 mô hình hợp lệ để tổng hợp theo mùa.")
+else:
+    st.line_chart(
+        seasonal_pm25,
+        x_label="Giờ trong ngày",
+        y_label="PM2.5 mô hình (µg/m³)",
+        alt="PM2.5 mô hình trung bình theo giờ trong ngày, chia theo 4 mùa",
+    )
+    sample_counts = ", ".join(
+        f"{season}: {count:,}" for season, count in seasonal_counts.items()
+    )
+    st.caption(
+        "Mỗi đường là trung bình của các năm có dữ liệu cho giờ tương ứng. "
+        "Quy ước mùa: Xuân (tháng 3–5), Hạ (6–8), Thu (9–11), "
+        f"Đông (12–2). Số giờ dữ liệu theo mùa: {sample_counts}. "
+        "Đây là dữ liệu mô hình CAMS, không phải phép đo tại trạm."
+    )
+
+st.subheader("PM2.5 theo tốc độ gió")
+if "wind_speed" not in model.columns:
+    st.info("Dữ liệu mô hình chưa có cột tốc độ gió.")
+else:
+    wind_summary = build_pm25_wind_summary(model)
+    if wind_summary.empty:
+        st.info("Chưa có dữ liệu PM2.5 và tốc độ gió hợp lệ để lập biểu đồ.")
+    else:
+        st.bar_chart(
+            wind_summary,
+            x="wind_range",
+            y="pm25_mean",
+            x_label="Tốc độ gió (km/h)",
+            y_label="PM2.5 trung bình (µg/m³)",
+            alt="PM2.5 trung bình theo các khoảng tốc độ gió",
+        )
+        counts = ", ".join(
+            f"{row.wind_range}: {row.observations:,} giờ"
+            for row in wind_summary.itertuples(index=False)
+        )
+        st.caption(
+            f"Số giờ dữ liệu mỗi khoảng: {counts}. "
+            "Tốc độ gió lấy từ mô hình thời tiết Open-Meteo; "
+            "mối liên hệ không khẳng định quan hệ nhân quả."
+        )
 
 st.subheader("Tổng hợp AQI mô hình theo ngày")
 trend_days = st.selectbox(

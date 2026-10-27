@@ -10,10 +10,10 @@ station_uid,station_name,lat,lon,time,aqi,temp,humidity,precipitation,wind_speed
 1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,2026-10-25 16:00:00,16.0,32.0,57.0,0.0,8.9,148,1006.7,2026-10-25,16,10,6,Thu,Tốt
 1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,2026-10-25 17:00:00,16.0,30.8,64.0,0.0,9.7,140,1007.4,2026-10-25,17,10,6,Thu,Tốt
 1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,2026-10-25 18:00:00,16.0,29.6,68.0,0.0,13.0,127,1008.4,2026-10-25,18,10,6,Thu,Tốt
-1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,2026-10-25 19:00:00,16.0,28.5,72.0,0.0,13.5,134,1009.9,2026-10-25,19,10,6,Thu,Tốt
-1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,2026-10-25 20:00:00,16.0,27.7,76.0,0.0,12.2,136,1011.0,2026-10-25,20,10,6,Thu,Tốt
-1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,2026-10-25 22:00:00,16.0,26.8,84.0,0.0,6.8,143,1011.9,2026-10-25,22,10,6,Thu,Tốt
-1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,2026-10-25 23:00:00,16.0,26.6,86.0,0.0,5.3,142,1012.0,2026-10-25,23,10,6,Thu,Tốt
+1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,2026-10-25 19:00:00,16.0,29.0,73.0,0.0,13.4,139,1009.6,2026-10-25,19,10,6,Thu,Tốt
+1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,2026-10-25 20:00:00,16.0,28.1,75.0,0.0,12.0,137,1010.5,2026-10-25,20,10,6,Thu,Tốt
+1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,2026-10-25 22:00:00,16.0,27.3,81.0,0.0,8.8,137,1011.5,2026-10-25,22,10,6,Thu,Tốt
+1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,2026-10-25 23:00:00,16.0,27.0,84.0,0.0,7.3,138,1011.7,2026-10-25,23,10,6,Thu,Tốt
 8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-06 16:00:00,47.0,27.3,48.0,0.0,8.0,27,1013.8,2026-10-06,16,10,1,Thu,Tốt
 8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-06 17:00:00,49.5,26.5,64.0,0.0,2.3,72,1014.1,2026-10-06,17,10,1,Thu,Tốt
 8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-06 18:00:00,52.0,24.8,67.0,0.0,3.9,124,1014.7,2026-10-06,18,10,1,Thu,Trung bình
@@ -33,10 +33,10 @@ station_uid,station_name,lat,lon,time,aqi,temp,humidity,precipitation,wind_speed
 8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-25 16:00:00,97.0,32.0,57.0,0.0,8.9,148,1006.7,2026-10-25,16,10,6,Thu,Trung bình
 8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-25 17:00:00,97.0,30.8,64.0,0.0,9.7,140,1007.4,2026-10-25,17,10,6,Thu,Trung bình
 8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-25 18:00:00,109.0,29.6,68.0,0.0,13.0,127,1008.4,2026-10-25,18,10,6,Thu,Kém
-8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-25 19:00:00,119.0,28.5,72.0,0.0,13.5,134,1009.9,2026-10-25,19,10,6,Thu,Kém
-8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-25 20:00:00,144.0,27.7,76.0,0.0,12.2,136,1011.0,2026-10-25,20,10,6,Thu,Kém
-8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-25 22:00:00,153.0,26.8,84.0,0.0,6.8,143,1011.9,2026-10-25,22,10,6,Thu,Xấu
-8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-25 23:00:00,153.33333333333334,26.6,86.0,0.0,5.3,142,1012.0,2026-10-25,23,10,6,Thu,Xấu
+8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-25 19:00:00,119.0,29.0,73.0,0.0,13.4,139,1009.6,2026-10-25,19,10,6,Thu,Kém
+8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-25 20:00:00,144.0,28.1,75.0,0.0,12.0,137,1010.5,2026-10-25,20,10,6,Thu,Kém
+8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-25 22:00:00,153.0,27.3,81.0,0.0,8.8,137,1011.5,2026-10-25,22,10,6,Thu,Xấu
+8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,2026-10-25 23:00:00,153.33333333333334,27.0,84.0,0.0,7.3,138,1011.7,2026-10-25,23,10,6,Thu,Xấu
 13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,2026-10-06 16:00:00,71.0,27.3,48.0,0.0,8.0,27,1013.8,2026-10-06,16,10,1,Thu,Trung bình
 13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,2026-10-07 13:00:00,110.0,29.0,43.0,0.0,8.0,34,1015.7,2026-10-07,13,10,2,Thu,Kém
 13026,"Hà Nội/Chi cục BVMT, Vietnam",21.01525,105.80013,2026-10-07 15:00:00,110.0,28.8,44.0,0.0,5.9,31,1014.0,2026-10-07,15,10,2,Thu,Kém

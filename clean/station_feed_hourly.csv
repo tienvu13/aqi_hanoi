@@ -1,5 +1,6 @@
 time,station_uid,station_name,lat,lon,aqi_tram,pm25_aqi,pm10_aqi
 2026-10-25 15:00:00,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,16.0,16.0,4.0
+2026-10-27 12:00:00,1583,"Hanoi, Vietnam (Hà Nội)",21.0491,105.8831,9.0,9.0,3.0
 2026-10-25 16:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,102.0,102.0,
 2026-10-25 17:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,110.0,110.0,
 2026-10-25 18:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,119.0,119.0,
@@ -7,3 +8,11 @@ time,station_uid,station_name,lat,lon,aqi_tram,pm25_aqi,pm10_aqi
 2026-10-25 20:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,152.0,152.0,
 2026-10-25 21:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,153.0,153.0,
 2026-10-25 22:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,154.0,154.0,
+2026-10-26 21:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,136.0,136.0,
+2026-10-26 22:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,136.0,136.0,
+2026-10-27 02:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,160.0,160.0,
+2026-10-27 08:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,182.0,182.0,
+2026-10-27 09:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,163.0,163.0,
+2026-10-27 10:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,158.0,158.0,
+2026-10-27 12:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,127.0,127.0,
+2026-10-27 13:00:00,8688,"United Nations International School of Hanoi, Vietnam (Trường Quốc tế Liên Hợp Quốc Hà Nội)",21.0811211,105.8180306,108.0,108.0,

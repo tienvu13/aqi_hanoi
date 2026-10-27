@@ -158,3 +158,373 @@ OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM m
 OpenAQ 6123215 (OceanPark): 1 phép đo PM mới.
 Cảnh báo: OpenAQ chỉ có 3/10 trạm có số đo mới.
 Đã lưu 3 trạm OpenAQ và 5 phép đo PM mới.
+
+===== NOAA METAR VVNB | 2026-10-26T22:09:28+07:00 =====
+Traceback (most recent call last):
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connection.py", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connection.py", line 246, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='aviationweather.gov', port=443): Failed to resolve 'aviationweather.gov' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='aviationweather.gov', port=443): Max retries exceeded with url: /api/data/metar?ids=VVNB&format=json&hours=24 (Caused by NameResolutionError("HTTPSConnection(host='aviationweather.gov', port=443): Failed to resolve 'aviationweather.gov' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_noaa_weather.py", line 139, in <module>
+    main()
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_noaa_weather.py", line 135, in main
+    collect_noaa_metar()
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_noaa_weather.py", line 101, in collect_noaa_metar
+    response = get_with_retry(
+               ^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\aqi_hanoi\core\http_utils.py", line 17, in get_with_retry
+    response = requests.get(url, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='aviationweather.gov', port=443): Max retries exceeded with url: /api/data/metar?ids=VVNB&format=json&hours=24 (Caused by NameResolutionError("HTTPSConnection(host='aviationweather.gov', port=443): Failed to resolve 'aviationweather.gov' ([Errno 11001] getaddrinfo failed)"))
+
+===== Hanoi monitoring portal | 2026-10-26T22:09:32+07:00 =====
+Traceback (most recent call last):
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connection.py", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connection.py", line 246, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='moitruongthudo.vn', port=443): Failed to resolve 'moitruongthudo.vn' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='moitruongthudo.vn', port=443): Max retries exceeded with url: /api/site (Caused by NameResolutionError("HTTPSConnection(host='moitruongthudo.vn', port=443): Failed to resolve 'moitruongthudo.vn' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_hanoi_portal.py", line 124, in <module>
+    main()
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_hanoi_portal.py", line 120, in main
+    collect_hanoi_portal()
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_hanoi_portal.py", line 98, in collect_hanoi_portal
+    sites = parse_sites(fetch_json("/api/site"))
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_hanoi_portal.py", line 21, in fetch_json
+    response = get_with_retry(
+               ^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\aqi_hanoi\core\http_utils.py", line 17, in get_with_retry
+    response = requests.get(url, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='moitruongthudo.vn', port=443): Max retries exceeded with url: /api/site (Caused by NameResolutionError("HTTPSConnection(host='moitruongthudo.vn', port=443): Failed to resolve 'moitruongthudo.vn' ([Errno 11001] getaddrinfo failed)"))
+
+===== Sensor.Community | 2026-10-26T22:09:35+07:00 =====
+Traceback (most recent call last):
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connection.py", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connection.py", line 246, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='data.sensor.community', port=443): Failed to resolve 'data.sensor.community' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='data.sensor.community', port=443): Max retries exceeded with url: /airrohr/v1/filter/area=21.0285,105.8542,25 (Caused by NameResolutionError("HTTPSConnection(host='data.sensor.community', port=443): Failed to resolve 'data.sensor.community' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_sensorcommunity.py", line 118, in <module>
+    main()
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_sensorcommunity.py", line 114, in main
+    collect_sensorcommunity()
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_sensorcommunity.py", line 100, in collect_sensorcommunity
+    rows = parse_pm25_measurements(fetch_measurements(), collected_at)
+                                   ^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\aqi_hanoi\collectors\collect_sensorcommunity.py", line 24, in fetch_measurements
+    response = get_with_retry(
+               ^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\aqi_hanoi\core\http_utils.py", line 17, in get_with_retry
+    response = requests.get(url, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\aqi_hanoi\venv\Lib\site-packages\requests\adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='data.sensor.community', port=443): Max retries exceeded with url: /airrohr/v1/filter/area=21.0285,105.8542,25 (Caused by NameResolutionError("HTTPSConnection(host='data.sensor.community', port=443): Failed to resolve 'data.sensor.community' ([Errno 11001] getaddrinfo failed)"))
+
+===== OpenAQ | 2026-10-26T22:09:39+07:00 =====
+Lỗi: OpenAQ API request failed (network error)
+
+===== NOAA METAR VVNB | 2026-10-26T22:14:12+07:00 =====
+NOAA METAR VVNB: 48 báo cáo mới; quan trắc gần nhất 2026-10-26 22:00:00.
+
+===== Hanoi monitoring portal | 2026-10-26T22:14:14+07:00 =====
+Cổng quan trắc Hà Nội: 18608 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== NOAA METAR VVNB | 2026-10-26T22:30:16+07:00 =====
+NOAA METAR VVNB: 47 báo cáo mới; quan trắc gần nhất 2026-10-26 22:00:00.
+
+===== Hanoi monitoring portal | 2026-10-26T22:30:18+07:00 =====
+Cổng quan trắc Hà Nội: 18616 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-26T22:31:04+07:00 =====
+Sensor.Community: 2 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== OpenAQ | 2026-10-26T22:31:27+07:00 =====
+OpenAQ: kiểm tra 43 trạm trong khu vực Hà Nội để tìm tối đa 10 trạm có số đo trong 24 giờ.
+OpenAQ 4946813 (Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ): 2 phép đo PM mới.
+OpenAQ 2161292 (Số 46, phố Lưu Quang Vũ): 2 phép đo PM mới.
+OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM mới.
+OpenAQ 6123215 (Dragon): 1 phép đo PM mới.
+OpenAQ 2161306 (Minh Khai - Bắc Từ Liêm): 1 phép đo PM mới.
+Cảnh báo: OpenAQ chỉ có 5/10 trạm có số đo mới.
+Đã lưu 5 trạm OpenAQ và 8 phép đo PM mới.
+
+===== NOAA METAR VVNB | 2026-10-26T23:00:17+07:00 =====
+NOAA METAR VVNB: 47 báo cáo mới; quan trắc gần nhất 2026-10-26 22:30:00.
+
+===== Hanoi monitoring portal | 2026-10-26T23:00:21+07:00 =====
+Cổng quan trắc Hà Nội: 18628 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-26T23:01:40+07:00 =====
+Sensor.Community: 2 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== OpenAQ | 2026-10-26T23:02:04+07:00 =====
+OpenAQ: kiểm tra 43 trạm trong khu vực Hà Nội để tìm tối đa 10 trạm có số đo trong 24 giờ.
+OpenAQ 4946813 (Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ): 2 phép đo PM mới.
+OpenAQ 2161292 (Số 46, phố Lưu Quang Vũ): 2 phép đo PM mới.
+OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM mới.
+OpenAQ 6123215 (Dragon): 1 phép đo PM mới.
+OpenAQ 2161306 (Minh Khai - Bắc Từ Liêm): 1 phép đo PM mới.
+Cảnh báo: OpenAQ chỉ có 5/10 trạm có số đo mới.
+Đã lưu 5 trạm OpenAQ và 8 phép đo PM mới.
+
+===== NOAA METAR VVNB | 2026-10-26T23:30:15+07:00 =====
+NOAA METAR VVNB: 47 báo cáo mới; quan trắc gần nhất 2026-10-26 23:00:00.
+
+===== Hanoi monitoring portal | 2026-10-26T23:30:17+07:00 =====
+Cổng quan trắc Hà Nội: 18640 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-26T23:31:07+07:00 =====
+Sensor.Community: 2 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== OpenAQ | 2026-10-26T23:31:10+07:00 =====
+
+===== NOAA METAR VVNB | 2026-10-27T03:44:06+07:00 =====
+NOAA METAR VVNB: 48 báo cáo mới; quan trắc gần nhất 2026-10-27 03:30:00.
+
+===== Hanoi monitoring portal | 2026-10-27T03:44:08+07:00 =====
+Cổng quan trắc Hà Nội: 18136 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-27T03:44:21+07:00 =====
+Sensor.Community: 2 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== OpenAQ | 2026-10-27T03:44:25+07:00 =====
+OpenAQ: kiểm tra 43 trạm trong khu vực Hà Nội để tìm tối đa 10 trạm có số đo trong 24 giờ.
+OpenAQ 4946813 (Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ): 2 phép đo PM mới.
+OpenAQ 2161292 (Số 46, phố Lưu Quang Vũ): 2 phép đo PM mới.
+OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM mới.
+OpenAQ 6123215 (Dragon): 1 phép đo PM mới.
+OpenAQ 2161306 (Minh Khai - Bắc Từ Liêm): 1 phép đo PM mới.
+Cảnh báo: OpenAQ chỉ có 5/10 trạm có số đo mới.
+Đã lưu 5 trạm OpenAQ và 8 phép đo PM mới.
+
+===== NOAA METAR VVNB | 2026-10-27T09:53:31+07:00 =====
+NOAA METAR VVNB: 48 báo cáo mới; quan trắc gần nhất 2026-10-27 09:30:00.
+
+===== Hanoi monitoring portal | 2026-10-27T09:53:33+07:00 =====
+
+===== NOAA METAR VVNB | 2026-10-27T11:00:13+07:00 =====
+NOAA METAR VVNB: 47 báo cáo mới; quan trắc gần nhất 2026-10-27 10:30:00.
+
+===== Hanoi monitoring portal | 2026-10-27T11:00:16+07:00 =====
+Cổng quan trắc Hà Nội: 18313 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-27T11:01:58+07:00 =====
+Sensor.Community: 2 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== OpenAQ | 2026-10-27T11:02:01+07:00 =====
+OpenAQ: kiểm tra 43 trạm trong khu vực Hà Nội để tìm tối đa 10 trạm có số đo trong 24 giờ.
+OpenAQ 4946813 (Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ): 2 phép đo PM mới.
+OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM mới.
+OpenAQ 6123215 (Dragon): 1 phép đo PM mới.
+Cảnh báo: OpenAQ chỉ có 3/10 trạm có số đo mới.
+Đã lưu 3 trạm OpenAQ và 5 phép đo PM mới.
+
+===== NOAA METAR VVNB | 2026-10-27T14:06:58+07:00 =====
+NOAA METAR VVNB: 48 báo cáo mới; quan trắc gần nhất 2026-10-27 14:00:00.
+
+===== Hanoi monitoring portal | 2026-10-27T14:06:59+07:00 =====
+Cổng quan trắc Hà Nội: 18387 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-27T14:07:21+07:00 =====
+Sensor.Community: 2 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== OpenAQ | 2026-10-27T14:07:24+07:00 =====
+OpenAQ: kiểm tra 43 trạm trong khu vực Hà Nội để tìm tối đa 10 trạm có số đo trong 24 giờ.
+OpenAQ 4946813 (Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ): 2 phép đo PM mới.
+OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM mới.
+OpenAQ 6123215 (Dragon): 1 phép đo PM mới.
+Cảnh báo: OpenAQ chỉ có 3/10 trạm có số đo mới.
+Đã lưu 3 trạm OpenAQ và 5 phép đo PM mới.
+
+===== NOAA METAR VVNB | 2026-10-27T14:28:18+07:00 =====
+NOAA METAR VVNB: 48 báo cáo mới; quan trắc gần nhất 2026-10-27 14:00:00.
+
+===== Hanoi monitoring portal | 2026-10-27T14:28:19+07:00 =====
+Cổng quan trắc Hà Nội: 18395 phép đo mới, 4 trạm trong dữ liệu lưu.
+
+===== Sensor.Community | 2026-10-27T14:28:49+07:00 =====
+Sensor.Community: 1 phép đo mới, 1 cảm biến trong dữ liệu lưu.
+
+===== OpenAQ | 2026-10-27T14:28:51+07:00 =====
+OpenAQ: kiểm tra 43 trạm trong khu vực Hà Nội để tìm tối đa 10 trạm có số đo trong 24 giờ.
+OpenAQ 4946813 (Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ): 2 phép đo PM mới.
+OpenAQ 4946812 (Công viên Nhân Chính - Khuất Duy Tiến): 2 phép đo PM mới.
+OpenAQ 6123215 (Dragon): 1 phép đo PM mới.
+Cảnh báo: OpenAQ chỉ có 3/10 trạm có số đo mới.
+Đã lưu 3 trạm OpenAQ và 5 phép đo PM mới.

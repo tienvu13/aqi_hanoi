@@ -70,6 +70,56 @@ def load_model():
     return model
 
 
+def build_seasonal_hourly_pm25(model):
+    seasons = {
+        3: "Xuân", 4: "Xuân", 5: "Xuân",
+        6: "Hạ", 7: "Hạ", 8: "Hạ",
+        9: "Thu", 10: "Thu", 11: "Thu",
+        12: "Đông", 1: "Đông", 2: "Đông",
+    }
+    season_order = ["Xuân", "Hạ", "Thu", "Đông"]
+    pm25 = model.loc[model["pm25"].notna(), ["pm25"]].copy()
+    pm25["hour"] = pm25.index.hour
+    pm25["season"] = pm25.index.month.map(seasons)
+    profile = pm25.pivot_table(
+        index="hour",
+        columns="season",
+        values="pm25",
+        aggfunc="mean",
+    ).reindex(index=range(24), columns=season_order)
+    counts = pm25.groupby("season")["pm25"].count().reindex(
+        season_order, fill_value=0
+    )
+    return profile, counts
+
+
+def build_pm25_wind_summary(model):
+    if not {"pm25", "wind_speed"}.issubset(model.columns):
+        return pd.DataFrame(columns=["wind_range", "pm25_mean", "observations"])
+
+    observations = model[["wind_speed", "pm25"]].apply(
+        pd.to_numeric, errors="coerce"
+    )
+    observations = observations.replace([float("inf"), float("-inf")], pd.NA)
+    observations = observations.dropna()
+    observations = observations.loc[observations["wind_speed"] >= 0].copy()
+    labels = ["≤5", ">5–10", ">10–15", ">15"]
+    observations["wind_range"] = pd.cut(
+        observations["wind_speed"],
+        bins=[0, 5, 10, 15, float("inf")],
+        labels=labels,
+        include_lowest=True,
+    )
+    summary = (
+        observations.groupby("wind_range", observed=True)["pm25"]
+        .agg(pm25_mean="mean", observations="count")
+        .reindex(labels)
+        .dropna(subset=["pm25_mean"])
+        .reset_index()
+    )
+    return summary
+
+
 def load_station_feed():
     path = PROJECT_DIR / "clean" / "station_feed_hourly.csv"
     if not path.is_file():
